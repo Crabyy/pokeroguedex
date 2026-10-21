@@ -9,10 +9,6 @@ dex version; they're listed on the site under **What's new → Game updates**.
 
 ## [Unreleased]
 
-### Added
-
-- The project is now licensed under the [GNU AGPL-3.0](https://github.com/Crabyy/pokeroguedex/blob/main/LICENSE), matching PokéRogue.
-
 ## [1.0.0] — 2026-10-22
 
 The first release: a complete, auto-updating dex for PokéRogue **v1.12.1.3**.
@@ -47,6 +43,7 @@ The first release: a complete, auto-updating dex for PokéRogue **v1.12.1.3**.
   fragile regexes), pinned to the exact locales/assets commits of each release.
 - GitHub Actions that check for new PokéRogue releases every 6 hours and commit fresh data, plus Vercel
   deployment config (`vercel.json`).
+- Licensed under the [GNU AGPL-3.0](https://github.com/Crabyy/pokeroguedex/blob/main/LICENSE), matching PokéRogue.
 
 [Unreleased]: https://github.com/Crabyy/pokeroguedex/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/Crabyy/pokeroguedex/releases/tag/v1.0.0
