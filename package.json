@@ -9,13 +9,13 @@
     "url": "https://github.com/Crabyy/pokeroguedex.git"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "scripts": {
     "data": "node scripts/build-data.mjs",
     "data:check": "node scripts/build-data.mjs --check",
     "dev": "node scripts/serve.mjs",
-    "test": "node --test scripts/test/"
+    "test": "node --test \"scripts/test/**/*.test.mjs\""
   },
   "devDependencies": {
     "typescript": "^5.9.3"

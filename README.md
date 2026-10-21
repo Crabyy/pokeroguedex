@@ -108,7 +108,7 @@ commit used by the game release.
 
 ## Development
 
-Requires **Node.js 20+** and **git**.
+Requires **Node.js 22+** and **git**.
 
 ```bash
 npm install          # just TypeScript (used by the data pipeline)
