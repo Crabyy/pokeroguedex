@@ -2,6 +2,7 @@
   "name": "pokeroguedex",
   "version": "1.0.0",
   "description": "An always up-to-date, community-made Pokédex for PokéRogue — species, moves, abilities, biomes, items and more, extracted straight from the game's source.",
+  "homepage": "https://pokeroguedex.vercel.app",
   "private": true,
   "type": "module",
   "repository": {

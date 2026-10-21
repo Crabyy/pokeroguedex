@@ -11,6 +11,8 @@ rebuilt automatically whenever PokéRogue ships an update.
 ![Game data](https://img.shields.io/badge/game%20data-PokéRogue%20v1.12.1.3-4a9bf8)
 ![Auto-updated](https://img.shields.io/badge/updates-every%206%20hours-4fd17f)
 
+### **[🔗 pokeroguedex.vercel.app](https://pokeroguedex.vercel.app)**
+
 </div>
 
 ---
