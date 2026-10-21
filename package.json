@@ -1,0 +1,23 @@
+{
+  "name": "pokeroguedex",
+  "version": "1.0.0",
+  "description": "An always up-to-date, community-made Pokédex for PokéRogue — species, moves, abilities, biomes, items and more, extracted straight from the game's source.",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crabyy/pokeroguedex.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "data:check": "node scripts/build-data.mjs --check",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test scripts/test/"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

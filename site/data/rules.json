@@ -1,0 +1,205 @@
+{
+  "starterCandy": [
+    {
+      "cost": 1,
+      "passive": 40,
+      "costReduction": [
+        25,
+        60
+      ],
+      "eggCosts": [
+        30,
+        27,
+        22,
+        15
+      ],
+      "eggCostReductionThresholds": [
+        20,
+        40,
+        80
+      ]
+    },
+    {
+      "cost": 2,
+      "passive": 40,
+      "costReduction": [
+        25,
+        60
+      ],
+      "eggCosts": [
+        30,
+        27,
+        22,
+        15
+      ],
+      "eggCostReductionThresholds": [
+        20,
+        40,
+        80
+      ]
+    },
+    {
+      "cost": 3,
+      "passive": 35,
+      "costReduction": [
+        20,
+        50
+      ],
+      "eggCosts": [
+        25,
+        22,
+        18,
+        12
+      ],
+      "eggCostReductionThresholds": [
+        20,
+        40,
+        80
+      ]
+    },
+    {
+      "cost": 4,
+      "passive": 30,
+      "costReduction": [
+        15,
+        40
+      ],
+      "eggCosts": [
+        20,
+        18,
+        15,
+        10
+      ],
+      "eggCostReductionThresholds": [
+        15,
+        30,
+        60
+      ]
+    },
+    {
+      "cost": 5,
+      "passive": 25,
+      "costReduction": [
+        12,
+        35
+      ],
+      "eggCosts": [
+        18,
+        16,
+        13,
+        9
+      ],
+      "eggCostReductionThresholds": [
+        15,
+        30,
+        60
+      ]
+    },
+    {
+      "cost": 6,
+      "passive": 20,
+      "costReduction": [
+        10,
+        30
+      ],
+      "eggCosts": [
+        15,
+        13,
+        11,
+        7
+      ],
+      "eggCostReductionThresholds": [
+        15,
+        30,
+        60
+      ]
+    },
+    {
+      "cost": 7,
+      "passive": 15,
+      "costReduction": [
+        8,
+        20
+      ],
+      "eggCosts": [
+        12,
+        10,
+        9,
+        6
+      ],
+      "eggCostReductionThresholds": [
+        10,
+        20,
+        40
+      ]
+    },
+    {
+      "cost": 8,
+      "passive": 10,
+      "costReduction": [
+        5,
+        15
+      ],
+      "eggCosts": [
+        10,
+        9,
+        7,
+        5
+      ],
+      "eggCostReductionThresholds": [
+        10,
+        20,
+        40
+      ]
+    },
+    {
+      "cost": 9,
+      "passive": 10,
+      "costReduction": [
+        5,
+        15
+      ],
+      "eggCosts": [
+        10,
+        9,
+        7,
+        5
+      ],
+      "eggCostReductionThresholds": [
+        10,
+        20,
+        40
+      ]
+    },
+    {
+      "cost": 10,
+      "passive": 10,
+      "costReduction": [
+        5,
+        15
+      ],
+      "eggCosts": [
+        10,
+        9,
+        7,
+        5
+      ],
+      "eggCostReductionThresholds": [
+        8,
+        16,
+        32
+      ]
+    }
+  ],
+  "biomeTierOdds": {
+    "COMMON": "356/512",
+    "UNCOMMON": "124/512",
+    "RARE": "26/512",
+    "SUPER_RARE": "5/512",
+    "ULTRA_RARE": "1/512",
+    "BOSS": "44/64",
+    "BOSS_RARE": "14/64",
+    "BOSS_SUPER_RARE": "5/64",
+    "BOSS_ULTRA_RARE": "1/64"
+  }
+}

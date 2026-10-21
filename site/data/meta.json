@@ -1,0 +1,24 @@
+{
+  "dex": {
+    "version": "1.0.0"
+  },
+  "game": {
+    "version": "1.12.1.3",
+    "tag": "v1.12.1.3",
+    "name": "Hotfix v1.12.1.3",
+    "publishedAt": "2026-10-19T04:08:55Z",
+    "url": "https://github.com/pagefaultgames/pokerogue/releases/tag/v1.12.1.3",
+    "commit": "a6995c571a092e762ea036589bb6f3a8fa4f5dbd",
+    "localesCommit": "5cd9ba827721461a5a68edc55cc00b8b8aabd61d",
+    "assetsCommit": "64b3f47cd586589261fe8cb08c8d540d710bfc1c"
+  },
+  "generatedAt": "2026-10-21T17:32:12.993Z",
+  "counts": {
+    "species": 1084,
+    "forms": 1500,
+    "moves": 920,
+    "abilities": 319,
+    "biomes": 35,
+    "items": 109
+  }
+}

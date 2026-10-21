@@ -1,0 +1,69 @@
+name: Update game data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild even if the data is already up to date"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check for a new PokéRogue release
+        id: check
+        run: npm run data:check
+
+      - name: Rebuild data
+        id: build
+        if: steps.check.outputs.outdated == 'true' || inputs.force
+        run: npm run data -- ${{ inputs.force && '--force' || '' }}
+
+      - name: Test
+        if: steps.build.outputs.changed == 'true'
+        run: npm test
+
+      # Vercel's Git integration redeploys automatically when this commit lands on main.
+      - name: Commit
+        id: commit
+        if: steps.build.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "data: update to PokéRogue ${{ steps.build.outputs.tag }}"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Optional: if Vercel skips bot-authored commits, add a Deploy Hook URL as the
+      # VERCEL_DEPLOY_HOOK repository secret and this step triggers the deploy instead.
+      - name: Trigger Vercel deploy hook
+        if: steps.commit.outputs.pushed == 'true' && env.VERCEL_DEPLOY_HOOK != ''
+        run: curl -fsS -X POST "$VERCEL_DEPLOY_HOOK"

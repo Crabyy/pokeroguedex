@@ -1,0 +1,210 @@
+{
+  "from": "v1.12.1.1",
+  "to": "v1.12.1.2",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 196,
+        "name": "Espeon",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 219,
+                "level": 23
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 453,
+        "name": "Croagunk",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 370,
+                "level": 52
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 454,
+        "name": "Toxicroak",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 370,
+                "level": 60
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 476,
+        "name": "Probopass",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 430,
+                "level": -1
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 672,
+        "name": "Skiddo",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 224,
+                "level": 54
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 673,
+        "name": "Gogoat",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 89,
+                "level": 60
+              },
+              {
+                "move": 224,
+                "level": 65
+              }
+            ],
+            "removed": [
+              {
+                "move": 89,
+                "level": 66
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 827,
+        "name": "Nickit",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 46,
+                "level": 10
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 828,
+        "name": "Thievul",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 46,
+                "level": 10
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 948,
+        "name": "Toedscool",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              330
+            ],
+            "removed": [
+              576
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "abilities": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 9
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "abilities": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "total": 9
+}

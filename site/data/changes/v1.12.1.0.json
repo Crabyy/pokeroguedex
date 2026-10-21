@@ -1,0 +1,6967 @@
+{
+  "from": "v1.12.0.11",
+  "to": "v1.12.1.0",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 27,
+        "name": "Sandshrew",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Sandslash",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Clefable",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 574,
+                "level": 1
+              }
+            ],
+            "removed": [
+              {
+                "move": 574,
+                "level": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 426,
+                "level": 23
+              },
+              {
+                "move": 163,
+                "level": 25
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 23
+              },
+              {
+                "move": 426,
+                "level": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 426,
+                "level": 23
+              },
+              {
+                "move": 163,
+                "level": 25
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 23
+              },
+              {
+                "move": 426,
+                "level": 25
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Meowth",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Mankey",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "Primeape",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Poliwrath",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Abra",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              85
+            ],
+            "removed": [
+              737
+            ]
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Machop",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "name": "Machoke",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "Machamp",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Farfetch’d",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              660,
+              885
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "name": "Seel",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              730
+            ],
+            "removed": [
+              592
+            ]
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "name": "Krabby",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "name": "Kingler",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "name": "Kangaskhan",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "name": "Scyther",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 125,
+        "name": "Electabuzz",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "name": "Magmar",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "name": "Pinsir",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 163,
+                "level": 46
+              },
+              {
+                "move": 37,
+                "level": 49
+              },
+              {
+                "move": 276,
+                "level": 52
+              },
+              {
+                "move": 12,
+                "level": 55
+              }
+            ],
+            "removed": [
+              {
+                "move": 37,
+                "level": 47
+              },
+              {
+                "move": 276,
+                "level": 50
+              },
+              {
+                "move": 12,
+                "level": 54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "name": "Kabutops",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 151,
+        "name": "Mew",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 167,
+        "name": "Spinarak",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 168,
+        "name": "Ariados",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 169,
+        "name": "Crobat",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 181,
+        "name": "Ampharos",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 198,
+        "name": "Murkrow",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "name": "Gligar",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "name": "Scizor",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "name": "Heracross",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "name": "Teddiursa",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 589,
+                "level": 1
+              },
+              {
+                "move": 343,
+                "level": 15
+              },
+              {
+                "move": 185,
+                "level": 18
+              },
+              {
+                "move": 230,
+                "level": 22
+              },
+              {
+                "move": 163,
+                "level": 25
+              }
+            ],
+            "removed": [
+              {
+                "move": 185,
+                "level": 15
+              },
+              {
+                "move": 230,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 22
+              },
+              {
+                "move": 589,
+                "level": 25
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "name": "Ursaring",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 343,
+                "level": 15
+              },
+              {
+                "move": 185,
+                "level": 18
+              },
+              {
+                "move": 230,
+                "level": 22
+              },
+              {
+                "move": 163,
+                "level": 25
+              }
+            ],
+            "removed": [
+              {
+                "move": 343,
+                "level": 1
+              },
+              {
+                "move": 185,
+                "level": 15
+              },
+              {
+                "move": 230,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 22
+              },
+              {
+                "move": 589,
+                "level": 25
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 227,
+        "name": "Skarmory",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "name": "Elekid",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 240,
+        "name": "Magby",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "name": "Treecko",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 253,
+        "name": "Grovyle",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 254,
+        "name": "Sceptile",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 255,
+        "name": "Torchic",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              916
+            ],
+            "removed": [
+              716
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "name": "Combusken",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 257,
+        "name": "Blaziken",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 260,
+        "name": "Swampert",
+        "changes": [
+          {
+            "field": "form:mega:passive",
+            "before": 2,
+            "after": 144
+          }
+        ]
+      },
+      {
+        "id": 273,
+        "name": "Seedot",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 274,
+        "name": "Nuzleaf",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "name": "Shiftry",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 287,
+        "name": "Slakoth",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 288,
+        "name": "Vigoroth",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 498,
+                "level": 23
+              },
+              {
+                "move": 163,
+                "level": 27
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 23
+              },
+              {
+                "move": 498,
+                "level": 27
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 289,
+        "name": "Slaking",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 290,
+        "name": "Nincada",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 291,
+        "name": "Ninjask",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 292,
+        "name": "Shedinja",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 302,
+        "name": "Sableye",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 312,
+        "name": "Minun",
+        "changes": [
+          {
+            "field": "passive",
+            "before": 249,
+            "after": 132
+          }
+        ]
+      },
+      {
+        "id": 317,
+        "name": "Swalot",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              806,
+              810
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 319,
+        "name": "Sharpedo",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 328,
+        "name": "Trapinch",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 329,
+        "name": "Vibrava",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 330,
+        "name": "Flygon",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 335,
+        "name": "Zangoose",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              838,
+              827
+            ],
+            "removed": [
+              667,
+              882
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 336,
+        "name": "Seviper",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 341,
+        "name": "Corphish",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 342,
+        "name": "Crawdaunt",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 352,
+        "name": "Kecleon",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 359,
+        "name": "Absol",
+        "changes": [
+          {
+            "field": "form:mega-z:abilities",
+            "before": [
+              105,
+              105,
+              105
+            ],
+            "after": [
+              292,
+              292,
+              292
+            ]
+          },
+          {
+            "field": "form:mega-z:passive",
+            "before": 292,
+            "after": 105
+          },
+          {
+            "field": "eggMoves",
+            "added": [
+              789,
+              440
+            ],
+            "removed": [
+              869,
+              875
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 362,
+        "name": "Glalie",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [],
+            "removed": [
+              {
+                "move": 301,
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 373,
+        "name": "Salamence",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 163,
+                "level": 1
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 380,
+        "name": "Latias",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              850
+            ],
+            "removed": [
+              832
+            ]
+          }
+        ]
+      },
+      {
+        "id": 381,
+        "name": "Latios",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              850
+            ],
+            "removed": [
+              417
+            ]
+          }
+        ]
+      },
+      {
+        "id": 391,
+        "name": "Monferno",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 392,
+        "name": "Infernape",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 400,
+        "name": "Bibarel",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 352,
+                "level": 25
+              },
+              {
+                "move": 401,
+                "level": 45
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 402,
+        "name": "Kricketune",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 403,
+        "name": "Shinx",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 404,
+        "name": "Luxio",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 405,
+        "name": "Luxray",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 428,
+        "name": "Lopunny",
+        "changes": [
+          {
+            "field": "form:mega:passive",
+            "before": 105,
+            "after": 203
+          }
+        ]
+      },
+      {
+        "id": 430,
+        "name": "Honchkrow",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 431,
+        "name": "Glameow",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 432,
+        "name": "Purugly",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 434,
+        "name": "Stunky",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 435,
+        "name": "Skuntank",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              142
+            ],
+            "removed": [
+              735
+            ]
+          }
+        ]
+      },
+      {
+        "id": 443,
+        "name": "Gible",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              417
+            ],
+            "removed": [
+              891
+            ]
+          },
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 201,
+                "level": 48
+              },
+              {
+                "move": 36,
+                "level": 54
+              }
+            ],
+            "removed": [
+              {
+                "move": 36,
+                "level": 48
+              },
+              {
+                "move": 201,
+                "level": 54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 444,
+        "name": "Gabite",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 201,
+                "level": 58
+              },
+              {
+                "move": 36,
+                "level": 66
+              }
+            ],
+            "removed": [
+              {
+                "move": 36,
+                "level": 58
+              },
+              {
+                "move": 201,
+                "level": 66
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 445,
+        "name": "Garchomp",
+        "changes": [
+          {
+            "field": "form:mega-z:abilities",
+            "before": [
+              24,
+              0,
+              24
+            ],
+            "after": [
+              26,
+              0,
+              26
+            ]
+          },
+          {
+            "field": "form:mega-z:passive",
+            "before": 26,
+            "after": 22
+          },
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 201,
+                "level": 58
+              },
+              {
+                "move": 36,
+                "level": 66
+              },
+              {
+                "move": 414,
+                "level": 72
+              },
+              {
+                "move": 407,
+                "level": 82
+              }
+            ],
+            "removed": [
+              {
+                "move": 36,
+                "level": 58
+              },
+              {
+                "move": 201,
+                "level": 66
+              },
+              {
+                "move": 407,
+                "level": 75
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 447,
+        "name": "Riolu",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 448,
+        "name": "Lucario",
+        "changes": [
+          {
+            "field": "form:mega-z:abilities",
+            "before": [
+              39,
+              39,
+              39
+            ],
+            "after": [
+              319,
+              319,
+              319
+            ]
+          },
+          {
+            "field": "form:mega-z:passive",
+            "before": 178,
+            "after": 233
+          },
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 451,
+        "name": "Skorupi",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 452,
+        "name": "Drapion",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 453,
+        "name": "Croagunk",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 454,
+        "name": "Toxicroak",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 457,
+        "name": "Lumineon",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 56,
+                "level": 66
+              }
+            ],
+            "removed": [
+              {
+                "move": 487,
+                "level": 66
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 461,
+        "name": "Weavile",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 466,
+        "name": "Electivire",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 467,
+        "name": "Magmortar",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 469,
+        "name": "Yanmega",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 472,
+        "name": "Gliscor",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 475,
+        "name": "Gallade",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 480,
+        "name": "Uxie",
+        "changes": [
+          {
+            "field": "passive",
+            "before": 156,
+            "after": 319
+          }
+        ]
+      },
+      {
+        "id": 485,
+        "name": "Heatran",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 488,
+        "name": "Cresselia",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              261
+            ],
+            "removed": [
+              735
+            ]
+          }
+        ]
+      },
+      {
+        "id": 490,
+        "name": "Manaphy",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              577,
+              730
+            ],
+            "removed": [
+              733,
+              618
+            ]
+          }
+        ]
+      },
+      {
+        "id": 500,
+        "name": "Emboar",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 501,
+        "name": "Oshawott",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 502,
+        "name": "Dewott",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 503,
+        "name": "Samurott",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 509,
+        "name": "Purrloin",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 510,
+        "name": "Liepard",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 519,
+        "name": "Pidove",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 520,
+        "name": "Tranquill",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 521,
+        "name": "Unfezant",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 539,
+        "name": "Sawk",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 540,
+        "name": "Sewaddle",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              910,
+              882
+            ],
+            "removed": [
+              830,
+              837
+            ]
+          }
+        ]
+      },
+      {
+        "id": 557,
+        "name": "Dwebble",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 558,
+        "name": "Crustle",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 559,
+        "name": "Scraggy",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 560,
+        "name": "Scrafty",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 571,
+        "name": "Zoroark",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 588,
+        "name": "Karrablast",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 589,
+        "name": "Escavalier",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 590,
+        "name": "Foongus",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 591,
+        "name": "Amoonguss",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 610,
+        "name": "Axew",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 530,
+                "level": 15
+              },
+              {
+                "move": 184,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 21
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 15
+              },
+              {
+                "move": 530,
+                "level": 18
+              },
+              {
+                "move": 184,
+                "level": 21
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530,
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 611,
+        "name": "Fraxure",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 530,
+                "level": 15
+              },
+              {
+                "move": 184,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 21
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 15
+              },
+              {
+                "move": 530,
+                "level": 18
+              },
+              {
+                "move": 184,
+                "level": 21
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530,
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 612,
+        "name": "Haxorus",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 530,
+                "level": 15
+              },
+              {
+                "move": 184,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 21
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 15
+              },
+              {
+                "move": 530,
+                "level": 18
+              },
+              {
+                "move": 184,
+                "level": 21
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530,
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 613,
+        "name": "Cubchoo",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 614,
+        "name": "Beartic",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 615,
+        "name": "Cryogonal",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 619,
+        "name": "Mienfoo",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 620,
+        "name": "Mienshao",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 621,
+        "name": "Druddigon",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 498,
+                "level": 21
+              },
+              {
+                "move": 163,
+                "level": 31
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 21
+              },
+              {
+                "move": 498,
+                "level": 31
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 624,
+        "name": "Pawniard",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 625,
+        "name": "Bisharp",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 631,
+        "name": "Heatmor",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 632,
+        "name": "Durant",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 646,
+        "name": "Kyurem",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 333,
+                "level": -1
+              }
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 648,
+        "name": "Meloetta",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 650,
+        "name": "Chespin",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 651,
+        "name": "Quilladin",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 652,
+        "name": "Chesnaught",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 656,
+        "name": "Froakie",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 657,
+        "name": "Frogadier",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 658,
+        "name": "Greninja",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 673,
+        "name": "Gogoat",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              224
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 674,
+        "name": "Pancham",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 675,
+        "name": "Pangoro",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 679,
+        "name": "Honedge",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 514,
+                "level": 20
+              },
+              {
+                "move": 163,
+                "level": 27
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 20
+              },
+              {
+                "move": 514,
+                "level": 27
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 680,
+        "name": "Doublade",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 514,
+                "level": 20
+              },
+              {
+                "move": 163,
+                "level": 27
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 20
+              },
+              {
+                "move": 514,
+                "level": 27
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 681,
+        "name": "Aegislash",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 514,
+                "level": 20
+              },
+              {
+                "move": 163,
+                "level": 27
+              }
+            ],
+            "removed": [
+              {
+                "move": 163,
+                "level": 20
+              },
+              {
+                "move": 514,
+                "level": 27
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 686,
+        "name": "Inkay",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 687,
+        "name": "Malamar",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 688,
+        "name": "Binacle",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 689,
+        "name": "Barbaracle",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 701,
+        "name": "Hawlucha",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 716,
+        "name": "Xerneas",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 720,
+        "name": "Hoopa",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 726,
+        "name": "Torracat",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 727,
+        "name": "Incineroar",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 735,
+        "name": "Gumshoos",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 739,
+        "name": "Crabrawler",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 740,
+        "name": "Crabominable",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 753,
+        "name": "Fomantis",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 754,
+        "name": "Lurantis",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 759,
+        "name": "Stufful",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 760,
+        "name": "Bewear",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 768,
+        "name": "Golisopod",
+        "changes": [
+          {
+            "field": "form:mega:abilities",
+            "before": [
+              75,
+              0,
+              75
+            ],
+            "after": [
+              181,
+              0,
+              181
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              97,
+              369,
+              400,
+              441,
+              530,
+              660,
+              884,
+              886
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 778,
+        "name": "Mimikyu",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 782,
+        "name": "Jangmo-o",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 783,
+        "name": "Hakamo-o",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 784,
+        "name": "Kommo-o",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 787,
+        "name": "Tapu Bulu",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 794,
+        "name": "Buzzwole",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 799,
+        "name": "Guzzlord",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 800,
+        "name": "Necrozma",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 802,
+        "name": "Marshadow",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 807,
+        "name": "Zeraora",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 827,
+        "name": "Nickit",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 828,
+        "name": "Thievul",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              46,
+              400,
+              660,
+              885
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 846,
+        "name": "Arrokuda",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 847,
+        "name": "Barraskewda",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 852,
+        "name": "Clobbopus",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              282
+            ],
+            "removed": [
+              480
+            ]
+          },
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 183,
+                "level": 17
+              },
+              {
+                "move": 480,
+                "level": 32
+              }
+            ],
+            "removed": [
+              {
+                "move": 418,
+                "level": 17
+              },
+              {
+                "move": 183,
+                "level": 22
+              },
+              {
+                "move": 282,
+                "level": 32
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              530,
+              886
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 853,
+        "name": "Grapploct",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 183,
+                "level": 17
+              },
+              {
+                "move": 480,
+                "level": 32
+              }
+            ],
+            "removed": [
+              {
+                "move": 418,
+                "level": 17
+              },
+              {
+                "move": 183,
+                "level": 22
+              },
+              {
+                "move": 282,
+                "level": 32
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              530,
+              886
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 862,
+        "name": "Obstagoon",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 863,
+        "name": "Perrserker",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 44,
+                "level": 22
+              }
+            ],
+            "removed": [
+              {
+                "move": 185,
+                "level": 22
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              86,
+              191,
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 865,
+        "name": "Sirfetch’d",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 297,
+                "level": 31
+              }
+            ],
+            "removed": [
+              {
+                "move": 97,
+                "level": 31
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              297,
+              332,
+              400,
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 868,
+        "name": "Milcery",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              208,
+              595,
+              740
+            ],
+            "removed": [
+              585,
+              414,
+              601
+            ]
+          }
+        ]
+      },
+      {
+        "id": 876,
+        "name": "Indeedee",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 273,
+                "level": 38
+              }
+            ],
+            "removed": [
+              {
+                "move": 236,
+                "level": 38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 884,
+        "name": "Duraludon",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 889,
+        "name": "Zamazenta",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 368,
+                "level": -1
+              },
+              {
+                "move": 24,
+                "level": 1
+              },
+              {
+                "move": 280,
+                "level": 44
+              }
+            ],
+            "removed": [
+              {
+                "move": 249,
+                "level": 1
+              },
+              {
+                "move": 368,
+                "level": 44
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 891,
+        "name": "Kubfu",
+        "changes": [
+          {
+            "field": "evolutions",
+            "before": [
+              {
+                "to": 892,
+                "level": 1,
+                "fromForm": "",
+                "toForm": "single-strike",
+                "item": "Scroll Of Darkness",
+                "itemTier": "ultra",
+                "conditions": [],
+                "delay": [
+                  50,
+                  60,
+                  70
+                ]
+              },
+              {
+                "to": 892,
+                "level": 1,
+                "fromForm": "",
+                "toForm": "rapid-strike",
+                "item": "Scroll Of Waters",
+                "itemTier": "ultra",
+                "conditions": [],
+                "delay": [
+                  50,
+                  60,
+                  70
+                ]
+              }
+            ],
+            "after": [
+              {
+                "to": 892,
+                "level": 1,
+                "fromForm": "",
+                "toForm": "single-strike",
+                "item": "Scroll of Darkness",
+                "itemTier": "ultra",
+                "conditions": [],
+                "delay": [
+                  50,
+                  60,
+                  70
+                ]
+              },
+              {
+                "to": 892,
+                "level": 1,
+                "fromForm": "",
+                "toForm": "rapid-strike",
+                "item": "Scroll of Waters",
+                "itemTier": "ultra",
+                "conditions": [],
+                "delay": [
+                  50,
+                  60,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 900,
+        "name": "Kleavor",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 901,
+        "name": "Ursaluna",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 343,
+                "level": 15
+              },
+              {
+                "move": 185,
+                "level": 18
+              },
+              {
+                "move": 230,
+                "level": 22
+              },
+              {
+                "move": 163,
+                "level": 25
+              }
+            ],
+            "removed": [
+              {
+                "move": 343,
+                "level": 1
+              },
+              {
+                "move": 185,
+                "level": 15
+              },
+              {
+                "move": 230,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 22
+              },
+              {
+                "move": 589,
+                "level": 25
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 903,
+        "name": "Sneasler",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 905,
+        "name": "Enamorus",
+        "changes": [
+          {
+            "field": "passive",
+            "before": 187,
+            "after": 13
+          },
+          {
+            "field": "form:incarnate:passive",
+            "before": 187,
+            "after": 13
+          }
+        ]
+      },
+      {
+        "id": 908,
+        "name": "Meowscarada",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 917,
+        "name": "Tarountula",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 918,
+        "name": "Spidops",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 919,
+        "name": "Nymble",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 920,
+        "name": "Lokix",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 931,
+        "name": "Squawkabilly",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              402,
+              679
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 935,
+        "name": "Charcadet",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 936,
+        "name": "Armarouge",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 937,
+        "name": "Ceruledge",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 942,
+        "name": "Maschiff",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [],
+            "removed": [
+              {
+                "move": 340,
+                "level": 37
+              },
+              {
+                "move": 679,
+                "level": 46
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              116
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 943,
+        "name": "Mabosstiff",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [],
+            "removed": [
+              {
+                "move": 340,
+                "level": 41
+              },
+              {
+                "move": 679,
+                "level": 51
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              116
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 945,
+        "name": "Grafaiai",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 948,
+        "name": "Toedscool",
+        "changes": [
+          {
+            "field": "passive",
+            "before": 50,
+            "after": 11
+          }
+        ]
+      },
+      {
+        "id": 949,
+        "name": "Toedscruel",
+        "changes": [
+          {
+            "field": "passive",
+            "before": 158,
+            "after": 11
+          }
+        ]
+      },
+      {
+        "id": 969,
+        "name": "Glimmet",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              414,
+              595
+            ],
+            "removed": [
+              347,
+              552
+            ]
+          }
+        ]
+      },
+      {
+        "id": 976,
+        "name": "Veluza",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 977,
+        "name": "Dondozo",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              133
+            ],
+            "removed": [
+              735
+            ]
+          }
+        ]
+      },
+      {
+        "id": 979,
+        "name": "Annihilape",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 983,
+        "name": "Kingambit",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400,
+              530
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 984,
+        "name": "Great Tusk",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              535
+            ],
+            "removed": [
+              508
+            ]
+          }
+        ]
+      },
+      {
+        "id": 988,
+        "name": "Slither Wing",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              660
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 994,
+        "name": "Iron Moth",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              815,
+              188
+            ],
+            "removed": [
+              414,
+              919
+            ]
+          }
+        ]
+      },
+      {
+        "id": 998,
+        "name": "Baxcalibur",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [],
+            "removed": [
+              {
+                "move": 665,
+                "level": 70
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              524
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 1002,
+        "name": "Chien-Pao",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 1005,
+        "name": "Roaring Moon",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 1006,
+        "name": "Iron Valiant",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 1010,
+        "name": "Iron Leaves",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 1018,
+        "name": "Archaludon",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 2027,
+        "name": "Sandshrew",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 2028,
+        "name": "Sandslash",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 2051,
+        "name": "Dugtrio",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 2052,
+        "name": "Meowth",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 2053,
+        "name": "Persian",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 4052,
+        "name": "Meowth",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 44,
+                "level": 22
+              }
+            ],
+            "removed": [
+              {
+                "move": 185,
+                "level": 22
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 4083,
+        "name": "Farfetch’d",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 297,
+                "level": 31
+              }
+            ],
+            "removed": [
+              {
+                "move": 97,
+                "level": 31
+              }
+            ]
+          },
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 4264,
+        "name": "Linoone",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 4554,
+        "name": "Darumaka",
+        "changes": [
+          {
+            "field": "eggMoves",
+            "added": [
+              9
+            ],
+            "removed": [
+              716
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6215,
+        "name": "Sneasel",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 6503,
+        "name": "Samurott",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              400
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 8901,
+        "name": "Ursaluna",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 341,
+                "level": 1
+              },
+              {
+                "move": 106,
+                "level": 1
+              },
+              {
+                "move": 496,
+                "level": 15
+              },
+              {
+                "move": 185,
+                "level": 18
+              },
+              {
+                "move": 589,
+                "level": 22
+              },
+              {
+                "move": 163,
+                "level": 25
+              }
+            ],
+            "removed": [
+              {
+                "move": 496,
+                "level": 1
+              },
+              {
+                "move": 189,
+                "level": 1
+              },
+              {
+                "move": 185,
+                "level": 15
+              },
+              {
+                "move": 106,
+                "level": 18
+              },
+              {
+                "move": 163,
+                "level": 22
+              },
+              {
+                "move": 589,
+                "level": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 20,
+        "name": "Bind",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A long body, tentacles, or the like are used to bind and squeeze the target. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "A long body, tentacles, or the like are used to bind and squeeze the target. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Jump Kick",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user jumps up high, then strikes with a kick. If this move misses or fails, the user takes damage equal to ½ of its max HP.",
+            "after": "The user jumps up high, then strikes with a kick. If this move misses or fails, the user takes damage equal to 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Wrap",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A long body, vines, or the like are used to wrap and squeeze the target. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "A long body, vines, or the like are used to wrap and squeeze the target. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Take Down",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A reckless full-body charge attack for slamming into the target. The user takes ¼ of the damage dealt by this move.",
+            "after": "A reckless full-body charge attack for slamming into the target. The user takes 1/4 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Double-Edge",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A reckless life-risking tackle in which the user rushes the target. The user takes ⅓ of the damage dealt by this move.",
+            "after": "A reckless life-risking tackle in which the user rushes the target. The user takes 1/3 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Blizzard",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A howling blizzard is summoned to strike opposing Pokémon. This move has a 10% chance of freezing the target, and never misses in snow or hail.",
+            "after": "A howling blizzard is summoned to strike opposing Pokémon. This move has a 10% chance of freezing targets and never misses in snow or hail."
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Submission",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user grabs the target and recklessly dives for the ground. The user takes ¼ of the damage dealt by this move.",
+            "after": "The user grabs the target and recklessly dives for the ground. The user takes 1/4 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "name": "Absorb",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "A nutrient-draining attack. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "A nutrient-draining attack. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Mega Drain",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "A nutrient-draining attack. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "A nutrient-draining attack. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name": "Leech Seed",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A seed is planted on the target. At the end of every turn, ⅛ of the target’s max HP gets absorbed by the user or any Pokémon that takes its place in battle.",
+            "after": "A seed is planted on the target. At the end of every turn, 1/8 of the target’s max HP gets absorbed by the user or any Pokémon that takes its place in battle."
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "name": "Poison Powder",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user scatters a cloud of poisonous dust that poisons the target.",
+            "after": "The user scatters a cloud of poisonous dust that poisons the target. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "name": "Stun Spore",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "after": "The user scatters a cloud of numbing powder that paralyzes the target. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "name": "Sleep Powder",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user scatters a cloud of soporific dust that puts the target to sleep.",
+            "after": "The user scatters a cloud of soporific dust that puts the target to sleep. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Fire Spin",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user traps the target inside a fierce vortex of fire. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "The user traps the target inside a fierce vortex of fire. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "name": "Thunder Wave",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "after": "The user launches a weak jolt of electricity that paralyzes the target. Ground-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "name": "Thunder",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A wicked thunderbolt is dropped on the target to inflict damage. This move has a 30% chance of paralyzing the target, and never misses in rain. This move can also hit a target that’s in the air from Fly, Bounce, or Sky Drop.",
+            "after": "A wicked thunderbolt is dropped on the target to inflict damage. This move has a 30% chance of paralyzing the target and never misses in rain. In harsh sunlight, this move’s accuracy is 50%. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop."
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "name": "Toxic",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A move that leaves the target badly poisoned. The target takes increasing poison damage at the end of every turn, starting at ¹⁄₁₆ of the Pokémon’s max HP, then ²⁄₁₆ and so on. If the user is a Poison-type, this move will never miss.",
+            "after": "A move that leaves the target badly poisoned. The target takes increasing poison damage at the end of every turn, starting at 1/16 of the Pokémon’s max HP, then 2/16 and so on. If the user is a Poison-type, this move will never miss."
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Recover",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user regenerates its cells, restoring ½ of its max HP.",
+            "after": "The user regenerates its cells, restoring 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "name": "Light Screen",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A wondrous wall of light is put up to halve the damage taken from special moves for 5 turns. In Double Battles, this damage is reduced by ⅓ instead.",
+            "after": "A wondrous wall of light is put up to halve the damage taken from special moves for 5 turns. In Double Battles, this damage is reduced by 1/3 instead."
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "name": "Reflect",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A wondrous wall of light is put up to halve the damage taken from physical moves for 5 turns. In Double Battles, this damage is reduced by ⅓ instead.",
+            "after": "A wondrous wall of light is put up to halve the damage taken from physical moves for 5 turns. In Double Battles, this damage is reduced by 1/3 instead."
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Clamp",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The target is clamped and squeezed by the user’s very thick and sturdy shell. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "The target is clamped and squeezed by the user’s very thick and sturdy shell. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "name": "Soft-Boiled",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user produces itself a large egg, restoring ½ of its max HP.",
+            "after": "The user produces itself a large egg, restoring 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 136,
+        "name": "High Jump Kick",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The target is attacked with a knee kick from a jump. If this move misses or fails, the user takes damage equal to ½ of its max HP.",
+            "after": "The target is attacked with a knee kick from a jump. If this move misses or fails, the user takes damage equal to 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 138,
+        "name": "Dream Eater",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user eats the dreams of a sleeping target. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "The user eats the dreams of a sleeping target. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "name": "Leech Life",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user drains the target’s blood. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "The user drains the target’s blood. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 147,
+        "name": "Spore",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user scatters bursts of spores that induce sleep.",
+            "after": "The user scatters bursts of spores that induce sleep. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 156,
+        "name": "Rest",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 162,
+        "name": "Super Fang",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user chomps hard on the target with its sharp front fangs. This deals damage to the target equal to ½ of their remaining HP.",
+            "after": "The user chomps hard on the target with its sharp front fangs. This deals damage to the target equal to 1/2 of their remaining HP."
+          }
+        ]
+      },
+      {
+        "id": 163,
+        "name": "Slash",
+        "changes": [
+          {
+            "field": "power",
+            "before": 70,
+            "after": 80
+          }
+        ]
+      },
+      {
+        "id": 164,
+        "name": "Substitute",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user creates a substitute for itself by losing ¼ of its max HP. The substitute serves as the user’s decoy, and will vanish when it takes damage equal to the amount of HP lost by the user to create it.",
+            "after": "The user creates a substitute for itself by losing 1/4 of its max HP. The substitute will be hit by moves instead of the user, and it will vanish when it takes damage equal to 1/4 of the user’s max HP. Sound-based moves will hit the user through the substitute."
+          }
+        ]
+      },
+      {
+        "id": 165,
+        "name": "Struggle",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This attack is used in desperation only if the user has no remaining PP. The user loses ¼ of its max HP.",
+            "after": "This attack is used in desperation only if the user has no remaining PP. The user loses 1/4 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 171,
+        "name": "Nightmare",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "A sleeping target sees a nightmare that inflicts damage equal to ¼ of its max HP at the end of every turn. This fails if the target is not asleep.",
+            "after": "A sleeping target sees a nightmare that inflicts damage equal to 1/4 of its max HP at the end of every turn. This fails if the target is not asleep."
+          }
+        ]
+      },
+      {
+        "id": 174,
+        "name": "Curse",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user boosts its Attack and Defense stats in exchange for lowering its Speed stat. If the user is a Ghost type, it instead loses ½ of its max HP to inflict a curse on the target. A Pokémon inflicted by the curse loses ¼ of its max HP at the end of every turn.",
+            "after": "The user boosts its Attack and Defense stats in exchange for lowering its Speed stat. If the user is a Ghost type, it instead loses 1/2 of its max HP to inflict a curse on the target. A Pokémon inflicted by the curse loses 1/4 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 178,
+        "name": "Cotton Spore",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats.",
+            "after": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This move enables the user to protect itself from all attacks. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "This move enables the user to protect itself from all attacks. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 187,
+        "name": "Belly Drum",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user loses ½ of its max HP to maximize its Attack stat. This move fails if the user doesn’t have enough remaining HP.",
+            "after": "The user loses 1/2 of its max HP to maximize its Attack stat. This move fails if the user doesn’t have enough remaining HP."
+          }
+        ]
+      },
+      {
+        "id": 191,
+        "name": "Spikes",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user lays a trap of spikes at the feet of the opposing team, damaging opposing Pokémon that switch into battle for damage equal to ⅛ of their max HP. This damage increases with multiple layers of Spikes, up to a max of 3. Flying types or Pokémon with Levitate are unaffected.",
+            "after": "The user lays a trap of spikes at the feet of the opposing team. Opposing Pokémon that land on these spikes when switching into battle will receive damage equal to 1/8 of their max HP. Up to 3 layers can be set, with each layer increasing the damage taken."
+          }
+        ]
+      },
+      {
+        "id": 193,
+        "name": "Foresight",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "after": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also negates the target’s evasiveness stat if it is boosted."
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "name": "Detect",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This move enables the user to protect itself from all attacks. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "This move enables the user to protect itself from all attacks. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 201,
+        "name": "Sandstorm",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user summons a sandstorm for 5 turns, Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. The sandstorm also boosts the Sp. Def stats of Rock types by 50%.",
+            "after": "The user summons a sandstorm for 5 turns. Pokémon that are not Rock, Ground, or Steel types take damage equal to 1/16 of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "name": "Giga Drain",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "A nutrient-draining attack. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "A nutrient-draining attack. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "name": "Endure",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user endures any attack with at least 1 HP. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "The user endures any attack with at least 1 HP. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "name": "Milk Drink",
+        "changes": [
+          {
+            "field": "target",
+            "before": "User",
+            "after": "User Or Near Ally"
+          },
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user drinks highly nutritious milk, restoring ½ of its max HP.",
+            "after": "The user produces highly nutritious milk, restoring 1/2 of the user or an ally’s max HP."
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "name": "Present",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks by giving the target a gift with a hidden trap, randomly dealing damage with 40, 80, or 120 power. The gift restores ¼ of the target’s max HP sometimes, however.",
+            "after": "The user attacks by giving the target a gift with a hidden trap, randomly dealing damage with 40, 80, or 120 power. The gift restores 1/4 of the target’s max HP sometimes, however."
+          }
+        ]
+      },
+      {
+        "id": 234,
+        "name": "Morning Sun",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user bathes in the pleasant rays of the sun, restoring ½ of its max HP. In harsh sunlight, ⅔ of its max HP will be restored instead. In all other weather conditions, ¼ of its max HP will be restored instead.",
+            "after": "The user bathes in the pleasant rays of the sun, restoring 1/2 of its max HP. In harsh sunlight, 2/3 of its max HP will be restored instead. In all other weather conditions, 1/4 of its max HP will be restored instead."
+          }
+        ]
+      },
+      {
+        "id": 235,
+        "name": "Synthesis",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user produces energy through photosynthesis, restoring ½ of its max HP. In harsh sunlight, ⅔ of its max HP will be restored instead. In all other weather conditions, ¼ of its max HP will be restored instead.",
+            "after": "The user produces energy through photosynthesis, restoring 1/2 of its max HP. In harsh sunlight, 2/3 of its max HP will be restored instead. In all other weather conditions, 1/4 of its max HP will be restored instead."
+          }
+        ]
+      },
+      {
+        "id": 236,
+        "name": "Moonlight",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user bathes in the soothing light of the moon, restoring ½ of its max HP. In harsh sunlight, ⅔ of its max HP will be restored instead. In all other weather conditions, ¼ of its max HP will be restored instead.",
+            "after": "The user bathes in the soothing light of the moon, restoring 1/2 of its max HP. In harsh sunlight, 2/3 of its max HP will be restored instead. In all other weather conditions, 1/4 of its max HP will be restored instead."
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "name": "Twister",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making the targets flinch, and can also hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled.",
+            "after": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making targets flinch, and can also hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "name": "Whirlpool",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user traps the target inside a violent, swirling whirlpool. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn. This move’s power is doubled against targets submerged with Dive.",
+            "after": "The user traps the target inside a violent, swirling whirlpool. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. This move’s power is doubled against targets submerged with Dive."
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "name": "Fake Out",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle.",
+            "after": "This attack hits first and makes the target flinch. This move fails unless it is the first move used by the user after it enters a battle."
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "name": "Swallow",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The levels stored using the move Stockpile are absorbed by the user to restore its HP. Level 1: ¼ of the user’s max HP is restored. Level 2: ½ of the user’s max HP is restored. Level 3: The user’s HP is fully restored.",
+            "after": "The levels stored using the move Stockpile are absorbed by the user to restore its HP. Level 1: 1/4 of the user’s max HP is restored. Level 2: 1/2 of the user’s max HP is restored. Level 3: The user’s HP is fully restored."
+          }
+        ]
+      },
+      {
+        "id": 257,
+        "name": "Heat Wave",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks by exhaling hot breath on opposing Pokémon. This move has a 10% chance of burning targets.",
+            "after": "The user attacks by blasting opposing Pokémon with searingly hot wind. This move has a 10% chance of burning targets."
+          }
+        ]
+      },
+      {
+        "id": 258,
+        "name": "Hail",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user summons a hailstorm lasting 5 turns. All Pokémon except Ice types will be damaged for ¹⁄₁₆ of their max HP at the end of every turn.",
+            "after": "The user summons a hailstorm lasting 5 turns. All Pokémon except Ice types will be damaged for 1/16 of their max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 273,
+        "name": "Wish",
+        "changes": [
+          {
+            "field": "pp",
+            "before": 10,
+            "after": 5
+          },
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "One turn after this move is used, the user’s or its replacement’s HP is restored by ½ the user’s max HP",
+            "after": "One turn after this move is used, the user’s or its replacement’s HP is restored by up to 1/2 the user’s max HP"
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "name": "Ingrain",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user lays roots that restore its own HP every turn. Because the user is now rooted, it cannot flee or be switched out.",
+            "after": "The user lays roots that restore 1/16 of its max HP at the end of every turn. Because it’s rooted, the user becomes grounded and cannot flee or be switched out of battle."
+          }
+        ]
+      },
+      {
+        "id": 299,
+        "name": "Blaze Kick",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks with a kick that has a 10% chance of burning the target. This move’s critical-hit ratio is boosted by 1 stage.",
+            "after": "The user attacks with a fiery kick that has a 10% chance of burning the target. This move’s critical-hit ratio is boosted by 1 stage."
+          }
+        ]
+      },
+      {
+        "id": 300,
+        "name": "Mud Sport",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user kicks up mud on the battlefield. This weakens Electric-type moves for 5 turns.",
+            "after": "The user kicks up mud on the battlefield. This weakens the Electric-type moves of all Pokémon on the field by 50% for 5 turns."
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "name": "Slack Off",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user slacks off, restoring ½ of its max HP.",
+            "after": "The user slacks off, restoring 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 316,
+        "name": "Odor Sleuth",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "after": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also negates the target’s evasiveness stat if it is boosted."
+          }
+        ]
+      },
+      {
+        "id": 318,
+        "name": "Silver Wind",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The target is attacked with powdery scales blown by the wind. This also has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once.",
+            "after": "The target is attacked with powdery scales blown by the wind. This has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once."
+          }
+        ]
+      },
+      {
+        "id": 328,
+        "name": "Sand Tomb",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user traps the target inside a harshly raging sandstorm. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "The user traps the target inside a harshly raging sandstorm. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 344,
+        "name": "Volt Tackle",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user electrifies itself and charges the target to inflict damage. The user takes ⅓ of the damage dealt by this move. This also has a 10% chance of paralyzing the target.",
+            "after": "The user electrifies itself and charges the target to inflict damage. The user takes 1/3 of the damage dealt by this move. This also has a 10% chance of paralyzing the target."
+          }
+        ]
+      },
+      {
+        "id": 346,
+        "name": "Water Sport",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user soaks the battlefield with water. This weakens Fire-type moves for 5 turns.",
+            "after": "The user soaks the battlefield with water. This weakens the Fire-type moves of all Pokémon on the field by 50% for 5 turns."
+          }
+        ]
+      },
+      {
+        "id": 355,
+        "name": "Roost",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user lands and rests its body, restoring ½ of its max HP. If the user is a Flying type, it will lose the Flying type for the turn.",
+            "after": "The user lands and rests its body, restoring 1/2 of its max HP. If the user is a Flying type, it will lose the Flying type for the turn."
+          }
+        ]
+      },
+      {
+        "id": 357,
+        "name": "Miracle Eye",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+            "after": "Enables a Dark-type target to be hit by Psychic-type attacks. This also negates the target’s evasiveness stat if it is boosted."
+          }
+        ]
+      },
+      {
+        "id": 361,
+        "name": "Healing Wish",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 390,
+        "name": "Toxic Spikes",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user lays a trap of poison spikes at the feet of the opposing team. One layer will poison opposing Pokémon that switch into battle, while a second layer will badly poison them instead. Flying types or Pokémon with Levitate are unaffected. Poison-types that lands on these spikes will absorb and remove them from the field.",
+            "after": "The user lays a trap of poison spikes at the feet of the opposing team. Opposing Pokémon that land on these spikes when switching into battle will be poisoned. A second layer of spikes will instead badly poison. Poison-types that land on these spikes will absorb and remove them from the field."
+          }
+        ]
+      },
+      {
+        "id": 392,
+        "name": "Aqua Ring",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "after": "The user envelops itself in a veil made of water, restoring 1/16 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 394,
+        "name": "Flare Blitz",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user cloaks itself in fire and charges the target to inflict damage. The user takes ⅓ of the damage dealt by this move. This also has a 10% chance of burning the target and thaws out the user if it is frozen.",
+            "after": "The user cloaks itself in fire and charges the target to inflict damage. The user takes 1/3 of the damage dealt by this move. This also has a 10% chance of burning the target and thaws out the user if it is frozen."
+          }
+        ]
+      },
+      {
+        "id": 400,
+        "name": "Night Slash",
+        "changes": [
+          {
+            "field": "tm",
+            "before": null,
+            "after": "great"
+          }
+        ]
+      },
+      {
+        "id": 409,
+        "name": "Drain Punch",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user attacks with an energy-draining punch. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "The user attacks with an energy-draining punch. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 413,
+        "name": "Brave Bird",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user tucks in its wings and charges at a low altitude. The user takes ⅓ of the damage dealt by this move.",
+            "after": "The user tucks in its wings and charges at a low altitude. The user takes 1/3 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 446,
+        "name": "Stealth Rock",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user lays a trap of levitating stones, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. This damage differs depending on the Pokémon’s type matchup with the Rock type.",
+            "after": "The user lays a trap of levitating stones around the opposing team. Any Pokémon that switch into battle will take damage equal to 1/8 of their max HP. This damage differs depending on the Pokémon’s type matchup with the Rock type."
+          }
+        ]
+      },
+      {
+        "id": 452,
+        "name": "Wood Hammer",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user slams its rugged body into the target to attack. The user takes ⅓ of the damage dealt by this move.",
+            "after": "The user slams its rugged body into the target to attack. The user takes 1/3 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 456,
+        "name": "Heal Order",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user calls out its underlings to heal it, restoring ½ of its max HP.",
+            "after": "The user calls out its underlings to heal it, restoring 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 457,
+        "name": "Head Smash",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks the target with a hazardous full-power headbutt. The user takes ½ of the damage dealt by this move.",
+            "after": "The user attacks the target with a hazardous full-power headbutt. The user takes 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 461,
+        "name": "Lunar Dance",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 463,
+        "name": "Magma Storm",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user traps the target inside a maelstrom of fire. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "The user traps the target inside a maelstrom of fire. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 476,
+        "name": "Rage Powder",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user scatters a cloud of irritating powder to draw attention to itself, making all opposing Pokémon take aim only at the user.",
+            "after": "The user scatters a cloud of irritating powder to draw attention to itself, making all opposing Pokémon take aim only at the user. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 481,
+        "name": "Flame Burst",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks the target with a bursting flame. Pokémon next to the target also take damage equal to ¹⁄₁₆ of their max HP.",
+            "after": "The user attacks the target with a bursting flame. Pokémon next to the target also take damage equal to 1/16 of their max HP."
+          }
+        ]
+      },
+      {
+        "id": 502,
+        "name": "Ally Switch",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user teleports using a strange power and switches places with one of its allies. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "The user teleports using a strange power and switches places with one of its allies. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 505,
+        "name": "Heal Pulse",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user emits a healing pulse that restores ½ of the target’s max HP.",
+            "after": "The user emits a healing pulse that restores 1/2 of the target’s max HP."
+          }
+        ]
+      },
+      {
+        "id": 528,
+        "name": "Wild Charge",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user shrouds itself in electricity and smashes into its target. The user takes ¼ of the damage dealt by this move.",
+            "after": "The user shrouds itself in electricity and smashes into its target. The user takes 1/4 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 530,
+        "name": "Dual Chop",
+        "changes": [
+          {
+            "field": "tm",
+            "before": null,
+            "after": "great"
+          },
+          {
+            "field": "flags",
+            "added": [
+              "slicing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 532,
+        "name": "Horn Leech",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user drains the target’s energy with its horns. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "The user drains the target’s energy with its horns. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 542,
+        "name": "Hurricane",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks by wrapping its opponent in a fierce wind. This move has a 30% chance of confusing the target, and never misses in rain. This move can also hit a target that’s in the air from Fly, Bounce, or Sky Drop.",
+            "after": "The user attacks by wrapping its opponent in a fierce wind. This move has a 30% chance of confusing the target and never misses in rain. In harsh sunlight, this move’s accuracy is 50%. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop."
+          }
+        ]
+      },
+      {
+        "id": 543,
+        "name": "Head Charge",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user charges its head into the target, using its powerful guard hair. The user takes ¼ of the damage dealt by this move.",
+            "after": "The user charges its head into the target, using its powerful guard hair. The user takes 1/4 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 561,
+        "name": "Mat Block",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+            "after": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This move does not stop status moves and will fail unless it is the first move used by the user after it enters a battle."
+          }
+        ]
+      },
+      {
+        "id": 570,
+        "name": "Parabolic Charge",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user attacks by unleashing a wave of electricity. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "The user attacks by unleashing a wave of electricity. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 573,
+        "name": "Freeze-Dry",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks by rapidly lowering target’s temperature. This move is also super effective against Water type Pokémon.",
+            "after": "The user attacks by rapidly lowering the target’s temperature. This move is super effective on Water-type Pokémon."
+          }
+        ]
+      },
+      {
+        "id": 577,
+        "name": "Draining Kiss",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 580,
+        "name": "Grassy Terrain",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have the power of their Grass-type moves boosted by 30% and they have ¹⁄₁₆ of their max HP restored at the end of every turn.",
+            "after": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have their Grass-type moves boosted by 30% and restore 1/16 of their max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 581,
+        "name": "Misty Terrain",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground have the power of their Dragon-type moves halved, they are immune to status conditions, and they cannot become confused.",
+            "after": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground are protected from status conditions and receive half the damage dealt by Dragon-type moves."
+          }
+        ]
+      },
+      {
+        "id": 588,
+        "name": "King’s Shield",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user takes a defensive stance while it protects itself from damage. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "The user takes a defensive stance while it protects itself from damage. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 596,
+        "name": "Spiky Shield",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn take damage equal to ⅛ of their max HP. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn take damage equal to 1/8 of their max HP. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 600,
+        "name": "Powder",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and the target takes damages equal to ¼ of their max HP.",
+            "after": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and the target takes damages equal to 1/4 of their max HP."
+          }
+        ]
+      },
+      {
+        "id": 604,
+        "name": "Electric Terrain",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user turns the ground into Electric Terrain for 5 turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep.",
+            "after": "The user turns the ground into Electric Terrain for 5 turns. Pokémon on the ground have their Electric-type moves boosted by 30% and cannot be put to sleep."
+          }
+        ]
+      },
+      {
+        "id": 611,
+        "name": "Infestation",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The target is infested and attacked. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time.",
+            "after": "The target is infested and attacked. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
+          }
+        ]
+      },
+      {
+        "id": 613,
+        "name": "Oblivion Wing",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 617,
+        "name": "Light of Ruin",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Drawing in mystical energy, the user fires a powerful beam of light. The user takes ½ of the damage dealt by this move.",
+            "after": "Drawing in mystical energy, the user fires a powerful beam of light. The user takes 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 659,
+        "name": "Shore Up",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user restores ½ of its max HP by kicking up a cloud of sand from its surroundings. In a sandstorm, the user restores ⅔ of its max HP instead.",
+            "after": "The user restores 1/2 of its max HP by kicking up a cloud of sand from its surroundings. In a sandstorm, the user restores 2/3 of its max HP instead."
+          }
+        ]
+      },
+      {
+        "id": 660,
+        "name": "First Impression",
+        "changes": [
+          {
+            "field": "tm",
+            "before": null,
+            "after": "ultra"
+          }
+        ]
+      },
+      {
+        "id": 661,
+        "name": "Baneful Bunker",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn become poisoned. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn become poisoned. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 666,
+        "name": "Floral Healing",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user restores ½ of the target’s max HP. When the ground is Grassy Terrain, ⅔ of the target’s max HP is restored instead.",
+            "after": "The user restores 1/2 of the target’s max HP. When the ground is Grassy Terrain, 2/3 of the target’s max HP is restored instead."
+          }
+        ]
+      },
+      {
+        "id": 668,
+        "name": "Strength Sap",
+        "changes": [
+          {
+            "field": "pp",
+            "before": 10,
+            "after": 5
+          },
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 676,
+        "name": "Pollen Puff",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user attacks the enemy with a pollen puff that explodes. When used on an ally, this move restores ½ of its max HP instead of dealing damage.",
+            "after": "The user attacks the enemy with a pollen puff that explodes. When used on an ally, this move restores 1/2 of its max HP instead of dealing damage."
+          }
+        ]
+      },
+      {
+        "id": 678,
+        "name": "Psychic Terrain",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for 5 turns.",
+            "after": "The user turns the ground into Psychic Terrain for 5 turns. Pokémon on the ground have their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority."
+          }
+        ]
+      },
+      {
+        "id": 685,
+        "name": "Purify",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 694,
+        "name": "Aurora Veil",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This move halves the damage taken from physical and special moves for 5 turns. In Double Battles, this damage is reduced by ⅓ instead. This can be used only under hail or when it is snowing.",
+            "after": "This move halves the damage taken from physical and special moves for 5 turns. In Double Battles, this damage is reduced by 1/3 instead. This can be used only under hail or when it is snowing."
+          }
+        ]
+      },
+      {
+        "id": 717,
+        "name": "Nature’s Madness",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user hits the target with the full wrath of nature. This deals damage to the target equal to ½ of their remaining HP.",
+            "after": "The user hits the target with the full wrath of nature. This deals damage to the target equal to 1/2 of their remaining HP."
+          }
+        ]
+      },
+      {
+        "id": 720,
+        "name": "Mind Blown",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks everything around it by causing its own head to explode. After attacking, the user takes damage equal to ½ of its max HP.",
+            "after": "The user attacks everything around it by causing its own head to explode. After attacking, the user takes damage equal to 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 733,
+        "name": "Bouncy Bubble",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 736,
+        "name": "Glitzy Glow",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user bombards the target with telekinetic force. A wondrous wall of light is put up to halve the damage taken from special moves. In Double Battles, this damage is reduced by ⅓ instead.",
+            "after": "The user bombards the target with telekinetic force. A wondrous wall of light is put up to halve the damage taken from special moves. In Double Battles, this damage is reduced by 1/3 instead."
+          }
+        ]
+      },
+      {
+        "id": 737,
+        "name": "Baddy Bad",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user acts bad and attacks the target. A wondrous wall of light is put up to halve the damage taken from physical moves. In Double Battles, this damage is reduced by ⅓ instead.",
+            "after": "The user acts bad and attacks the target. A wondrous wall of light is put up to halve the damage taken from physical moves. In Double Battles, this damage is reduced by 1/3 instead."
+          }
+        ]
+      },
+      {
+        "id": 738,
+        "name": "Sappy Seed",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user grows a gigantic stalk that scatters seeds to attack the target. At the end of every turn, ⅛ of the target’s max HP gets absorbed by the user or any Pokémon that takes its place in battle.",
+            "after": "The user grows a gigantic stalk that scatters seeds to attack the target. At the end of every turn, 1/8 of the target’s max HP gets absorbed by the user or any Pokémon that takes its place in battle."
+          }
+        ]
+      },
+      {
+        "id": 743,
+        "name": "Max Guard",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This move enables the user to protect itself from all attacks. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "This move enables the user to protect itself from all attacks. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 744,
+        "name": "Dynamax Cannon",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user condenses energy within its body and unleashes that energy from its core to inflict damage. Deals up to twice the damage if the target is overly leveled.",
+            "after": "The user condenses energy within its body and unleashes that energy from its core to inflict damage. The higher the target’s level exceeds the current level cap, the greater this move’s power (ranging from 100 to 200)."
+          }
+        ]
+      },
+      {
+        "id": 745,
+        "name": "Snipe Shot",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user ignores the effects of opposing Pokémon’s moves and Abilities that draw in moves. This move’s critical-hit ratio is boosted by 1 stage.",
+            "after": "The user ignores the effects of Abilities and moves that draw in moves. This move’s critical-hit ratio is boosted by 1 stage."
+          }
+        ]
+      },
+      {
+        "id": 750,
+        "name": "Magic Powder",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user scatters a cloud of magic powder that changes the target’s type to Psychic.",
+            "after": "The user scatters a cloud of magic powder that changes the target’s type to Psychic. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 775,
+        "name": "Clangorous Soul",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user loses ⅓ of its max HP to boost its Attack, Defense, Sp. Atk, Sp. Def, and Speed stats. This move fails if the user doesn’t have enough remaining HP.",
+            "after": "The user loses 1/3 of its max HP to boost its Attack, Defense, Sp. Atk, Sp. Def, and Speed stats. This move fails if the user doesn’t have enough remaining HP."
+          }
+        ]
+      },
+      {
+        "id": 779,
+        "name": "Snap Trap",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user snares the target in a snap trap. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "The user snares the target in a snap trap. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 791,
+        "name": "Life Dew",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user scatters mysterious water around and restores ¼ of the user and its ally Pokémon’s max HP.",
+            "after": "The user scatters mysterious water around and restores 1/4 of the user and its ally Pokémon’s max HP."
+          }
+        ]
+      },
+      {
+        "id": 792,
+        "name": "Obstruct",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "This move enables the user to protect itself from all attacks. Any attackers that use contact moves against the user during this turn will have their Defense stats harshly lowered. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "This move enables the user to protect itself from all attacks. Any attackers that use contact moves against the user during this turn will have their Defense stats harshly lowered. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 794,
+        "name": "Meteor Assault",
+        "changes": [
+          {
+            "field": "power",
+            "before": 150,
+            "after": 170
+          }
+        ]
+      },
+      {
+        "id": 796,
+        "name": "Steel Beam",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user fires a beam of steel that it collected from its entire body. After attacking, the user takes damage equal to ½ of its max HP.",
+            "after": "The user fires a beam of steel that it collected from its entire body. After attacking, the user takes damage equal to 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 797,
+        "name": "Expanding Force",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks the target with its psychic power. If the user is under the effect of Psychic Terrain, this move’s power is boosted by 50% and its range extends to all opponents.",
+            "after": "The user attacks the target with its psychic power. If the user is on Psychic Terrain, this move’s power is boosted by 50% and its range extends to all opponents."
+          }
+        ]
+      },
+      {
+        "id": 802,
+        "name": "Misty Explosion",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks everything around it and faints upon using this move. If the user is under the effect of Misty Terrain, this move’s power is boosted by 50%.",
+            "after": "The user attacks everything around it and faints upon using this move. If the user is on Misty Terrain, this move’s power is boosted by 50%."
+          }
+        ]
+      },
+      {
+        "id": 803,
+        "name": "Grassy Glide",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "Gliding on the ground, the user attacks the target. If the user is under the effect of Grassy Terrain, this move always goes first.",
+            "after": "Gliding on the ground, the user attacks the target. If the user is on Grassy Terrain, this move always goes first."
+          }
+        ]
+      },
+      {
+        "id": 804,
+        "name": "Rising Voltage",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks with electricity rising from the ground. This move’s power is doubled if the target is under the effect of Electric Terrain.",
+            "after": "The user attacks with electricity rising from the ground. This move’s power is doubled if the target is on Electric Terrain."
+          }
+        ]
+      },
+      {
+        "id": 816,
+        "name": "Jungle Healing",
+        "changes": [
+          {
+            "field": "status",
+            "before": null,
+            "after": "edgeCase"
+          },
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user becomes one with the jungle, restoring ¼ of the user and its ally Pokémon’s max HP while curing status conditions.",
+            "after": "The user becomes one with the jungle, restoring 1/4 of the user and its ally Pokémon’s max HP while curing status conditions."
+          }
+        ]
+      },
+      {
+        "id": 819,
+        "name": "Thunder Cage",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user traps the target inside a cage of sparking electricity. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn.",
+            "after": "The user traps the target inside a cage of sparking electricity. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 830,
+        "name": "Stone Axe",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. The stone splinters’ damage will differ depending on the Pokémon’s type matchup with the Rock type.",
+            "after": "The user swings its stone axes at the target, leaving behind stone splinters that float around the opposing team. Any Pokémon that switch into battle will take damage equal to 1/8 of their max HP. The damage of these rocks differ depending on the Pokémon’s type matchup with the Rock type."
+          }
+        ]
+      },
+      {
+        "id": 834,
+        "name": "Wave Crash",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user shrouds itself in water and slams into the target with its whole body to inflict damage. The user takes ⅓ of the damage dealt by this move.",
+            "after": "The user shrouds itself in water and slams into the target with its whole body to inflict damage. The user takes 1/3 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 835,
+        "name": "Chloroblast",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user launches its amassed chlorophyll to inflict damage on the target. After attacking, the user takes damage equal to ½ of its max HP.",
+            "after": "The user launches its amassed chlorophyll to inflict damage on the target. After attacking, the user takes damage equal to 1/2 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 845,
+        "name": "Ceaseless Edge",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user slashes a sharpened blade at the target, leaving splinters under the target as spikes. Pokémon that switch into battle take damage equal to ⅛ of their max HP. Up to three layers can be set, with each layer increasing the damage taken. Flying types or Pokémon with Levitate are unaffected by these spikes.",
+            "after": "The user slashes a sharpened blade at the target, leaving splinters under the target as spikes. Opposing Pokémon that land on these spikes when switching into battle will receive damage equal to 1/8 of their max HP. Up to 3 layers can be set, with each layer increasing the damage taken."
+          }
+        ]
+      },
+      {
+        "id": 849,
+        "name": "Lunar Blessing",
+        "changes": [
+          {
+            "field": "status",
+            "before": null,
+            "after": "edgeCase"
+          },
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user receives a blessing from the crescent moon, restoring ¼ of the user and its ally Pokémon’s max HP while curing status conditions.",
+            "after": "The user receives a blessing from the crescent moon, restoring 1/4 of the user and its ally Pokémon’s max HP while curing status conditions."
+          }
+        ]
+      },
+      {
+        "id": 852,
+        "name": "Silk Trap",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before.",
+            "after": "The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+          }
+        ]
+      },
+      {
+        "id": 853,
+        "name": "Axe Kick",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user attacks by kicking up into the air and slamming its heel down upon the target. This move has a 30% chance of confusing the target. If this move misses or fails, the user takes damage equal to ½ of its max HP instead.",
+            "after": "The user attacks by kicking up into the air and slamming its heel down upon the target. This move has a 30% chance of confusing the target. If this move misses or fails, the user takes damage equal to 1/2 of its max HP instead."
+          }
+        ]
+      },
+      {
+        "id": 861,
+        "name": "Ice Spinner",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user covers its feet in thin ice and twirls around, slamming into the target. This move’s spinning motion also destroys the terrain.",
+            "after": "The user covers itself in thin ice and twirls around, slamming into the target. This move’s spinning motion also destroys the terrain."
+          }
+        ]
+      },
+      {
+        "id": 863,
+        "name": "Revival Blessing",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 864,
+        "name": "Salt Cure",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user salt cures the target, inflicting damage equal to ¹⁄₁₆ of the target’s max HP at the end of every turn. Steel and Water types take damage equal to ⅛ of their max HP instead.",
+            "after": "The user salt cures the target, inflicting damage equal to 1/16 of the target’s max HP at the end of every turn. Steel and Water types take damage equal to 1/8 of their max HP instead."
+          }
+        ]
+      },
+      {
+        "id": 868,
+        "name": "Fillet Away",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user loses ½ of its max HP to sharply boost its Attack, Sp. Atk, and Speed stats. This move fails if the user doesn’t have enough remaining HP.",
+            "after": "The user loses 1/2 of its max HP to sharply boost its Attack, Sp. Atk, and Speed stats. This move fails if the user doesn’t have enough remaining HP."
+          }
+        ]
+      },
+      {
+        "id": 877,
+        "name": "Ruination",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user summons a ruinous disaster. This deals damage to the target equal to ½ of their remaining HP.",
+            "after": "The user summons a ruinous disaster. This deals damage to the target equal to 1/2 of their remaining HP."
+          }
+        ]
+      },
+      {
+        "id": 880,
+        "name": "Shed Tail",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user creates a substitute for itself using ½ of its max HP before switching places with a party Pokémon in waiting.",
+            "after": "The user creates a substitute for itself using 1/2 of its max HP before switching places with a party Pokémon in waiting."
+          }
+        ]
+      },
+      {
+        "id": 883,
+        "name": "Snowscape",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user summons a snowstorm lasting 5 turns. This boosts the Defense stats of Ice types.",
+            "after": "The user summons a snowstorm lasting 5 turns. This boosts the Defense stats of Ice types by 50%."
+          }
+        ]
+      },
+      {
+        "id": 891,
+        "name": "Bitter Blade",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user attacks by focusing all its bitter feelings toward this world into a slashing attack. The user’s HP is restored by ½ of the damage dealt by this move.",
+            "after": "The user attacks by focusing all its bitter feelings toward this world into the tip of its blade. The user’s HP is restored by 1/2 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 892,
+        "name": "Double Shock",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "punch"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 902,
+        "name": "Matcha Gotcha",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "healing"
+            ],
+            "removed": []
+          },
+          {
+            "field": "effect",
+            "before": "The user fires a blast of tea that it mixed. The user’s HP is restored by ½ of the damage dealt by this move, and has a 20% chance of burning targets. This will also thaw out a frozen user or target.",
+            "after": "The user fires a blast of tea that it mixed. The user’s HP is restored by 1/2 of the damage dealt by this move, and has a 20% chance of burning targets. This will also thaw out a frozen user or target."
+          }
+        ]
+      },
+      {
+        "id": 904,
+        "name": "Ivy Cudgel",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user strikes with an ivy-wrapped cudgel, this move’s critical-hit ratio is boosted by 1 stage. When used by Ogerpon, this move’s type changes depending on the mask worn.",
+            "after": "The user strikes with an ivy-wrapped cudgel. This move’s critical-hit ratio is boosted by 1 stage. When used by Ogerpon, this move’s type changes depending on the mask worn."
+          }
+        ]
+      },
+      {
+        "id": 916,
+        "name": "Supercell Slam",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user electrifies its body and drops onto the target to inflict damage. The user takes damage equal to ½ of its max HP if this move misses or fails. If the target has used Minimize, this move’s power is doubled and it will be sure to hit.",
+            "after": "The user electrifies its body and drops onto the target to inflict damage. The user takes damage equal to 1/2 of its max HP if this move misses or fails. If the target has used Minimize, this move’s power is doubled and it will be sure to hit."
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": {
+    "added": [
+      {
+        "id": 319,
+        "name": "Aura Guard"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": 2,
+        "name": "Drizzle",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon makes it rain for 5 turns when it enters a battle.",
+            "after": "Summons rain for 5 turns when the Pokémon enters a battle. Powers up Water-type moves by 50% and halves the damage of Fire-type moves."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Volt Absorb",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Electric-type moves do not work on the Pokémon. Instead, they restore ¼ of its max HP.",
+            "after": "Electric-type moves do not work on the Pokémon. Instead, they restore 1/4 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Water Absorb",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Water-type moves do not work on the Pokémon. Instead, they restore ¼ of its max HP.",
+            "after": "Water-type moves do not work on the Pokémon. Instead, they restore 1/4 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Rough Skin",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon’s rough skin damages attackers that hit it with contact moves for ⅛ of their max HP.",
+            "after": "The Pokémon’s rough skin damages attackers that hit it with contact moves for 1/8 of their max HP."
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Wonder Guard",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Its mysterious power only lets supereffective moves hit the Pokémon.",
+            "after": "Its mysterious power only lets super effective moves hit the Pokémon."
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Effect Spore",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep.",
+            "after": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep. Grass-type Pokémon are unaffected."
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Illuminate",
+        "changes": [
+          {
+            "field": "description",
+            "before": "By illuminating its surroundings, the Pokémon ignores changes to targets’ evasiveness and its accuracy cannot be lowered. If this Pokémon is your lead into battle, it raises the likelihood of double battles.",
+            "after": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered and ignores changes to targets’ evasiveness. Raises the likelihood of Double Battles while this Pokémon is on the field."
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Rain Dish",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon has ¹⁄₁₆ of its max HP restored at the end of every turn in rain.",
+            "after": "The Pokémon has 1/16 of its max HP restored at the end of every turn in rain."
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Sand Stream",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon summons a sandstorm for 5 turns when it enters a battle.",
+            "after": "Summons a sandstorm for 5 turns when the Pokémon enters a battle. Pokémon that are not Rock, Ground, or Steel types take damage equal to 1/16 of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Pressure",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against it.",
+            "after": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against the Pokémon."
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Run Away",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Enables a sure getaway from wild Pokémon.",
+            "after": "Enables a sure getaway from wild Pokémon, as well as ignoring any effect that would usually prevent the Pokémon from switching out."
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Keen Eye",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon’s keen eyes ignore changes to targets’ evasiveness and prevent its accuracy from being lowered.",
+            "after": "The Pokémon’s keen eyes prevent its accuracy from being lowered and ignore changes to targets’ evasiveness."
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "Shed Skin",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon has a 30% chance to cure its own status conditions at the end of every turn by shedding its skin.",
+            "after": "The Pokémon has a 30% chance of curing its own status conditions at the end of every turn by shedding its skin."
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Guts",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon is so gutsy that when it has a status condition, its Attack stat is boosted by 50%. Being burned does not halve the damage dealt by the Pokémon’s physical moves.",
+            "after": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat by 50%. Being burned does not halve the damage dealt by the Pokémon’s physical moves."
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Marvel Scale",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon has a status condition, its marvelous scales boost its Defense stat by 50%.",
+            "after": "The Pokémon’s marvelous scales boost its Defense stat by 50% if it has a status condition."
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Liquid Ooze",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [
+              "bypassFaint"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "Overgrow",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the power of the Pokémon’s Grass-type moves by 50% when its HP drops to ⅓ or less of its max.",
+            "after": "Boosts the power of the Pokémon’s Grass-type moves by 50% when its HP drops to 1/3 or less of its max."
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Blaze",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the power of the Pokémon’s Fire-type moves by 50% when its HP drops to ⅓ or less of its max.",
+            "after": "Boosts the power of the Pokémon’s Fire-type moves by 50% when its HP drops to 1/3 or less of its max."
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "name": "Torrent",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the power of the Pokémon’s Water-type moves by 50% when its HP drops to ⅓ or less of its max.",
+            "after": "Boosts the power of the Pokémon’s Water-type moves by 50% when its HP drops to 1/3 or less of its max."
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "Swarm",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the power of the Pokémon’s Bug-type moves by 50% when its HP drops to ⅓ or less of its max.",
+            "after": "Boosts the power of the Pokémon’s Bug-type moves by 50% when its HP drops to 1/3 or less of its max."
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "name": "Drought",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Summons harsh sunlight for 5 turns when the Pokémon enters a battle.",
+            "after": "Summons harsh sunlight for 5 turns when the Pokémon enters a battle. Powers up Fire-type moves by 50% and halves the damage of Water-type moves."
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "name": "Arena Trap",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Prevents opposing Pokémon from fleeing from battle. If this Pokémon is your lead into battle, it raises the likelihood of double battles.",
+            "after": "Prevents opposing Pokémon from fleeing or switching out. Raises the likelihood of Double Battles while this Pokémon is on the field."
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "Gluttony",
+        "changes": [
+          {
+            "field": "description",
+            "before": "If the Pokémon is holding a Berry to be eaten when its HP drops to ¼ or less of its max, it will instead eat that Berry when its HP drops to ½ or less of its max.",
+            "after": "If the Pokémon is holding a Berry to be eaten when its HP drops to 1/4 or less of its max, it will instead eat that Berry when its HP drops to 1/2 or less of its max."
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "name": "Dry Skin",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Restores ¼ of the Pokémon’s max HP when hit by Water-type moves or ⅛ of the its max HP at the end of every turn in rain. However, the Pokémon receives 25% more damage from Fire-type moves and loses ⅛ of its max HP at the end of every turn in harsh sunlight.",
+            "after": "Restores 1/4 of the Pokémon’s max HP when hit by Water-type moves or 1/8 of its max HP at the end of every turn in rain. However, the Pokémon receives 25% more damage from Fire-type moves and loses 1/8 of its max HP at the end of every turn in harsh sunlight."
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "name": "Poison Heal",
+        "changes": [
+          {
+            "field": "description",
+            "before": "If poisoned or badly poisoned, the Pokémon has ⅛ of its max HP restored at the end of every turn instead of losing HP.",
+            "after": "If poisoned or badly poisoned, the Pokémon has 1/8 of its max HP restored at the end of every turn instead of losing HP."
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "name": "Solar Power",
+        "changes": [
+          {
+            "field": "description",
+            "before": "In harsh sunlight, the Pokémon’s Sp. Atk stat is boosted by 50% but it loses ⅛ of its max HP at the end of every turn.",
+            "after": "In harsh sunlight, the Pokémon’s Sp. Atk stat is boosted by 50% but it loses 1/8 of its max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "name": "No Guard",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land. If this Pokémon is your lead into battle, it raises the likelihood of double battles.",
+            "after": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land. Raises the likelihood of Double Battles while this Pokémon is on the field."
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Aftermath",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon is knocked out by a contact move, the attacker takes damage equal to ¼ of their max HP.",
+            "after": "When the Pokémon is knocked out by a contact move, the attacker takes damage equal to 1/4 of their max HP."
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "name": "Tinted Lens",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon’s \"not very effective\" attacks deal double damage.",
+            "after": "The Pokémon’s “not very effective” attacks deal double damage."
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "name": "Filter",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Reduces the damage the Pokémon takes from supereffective moves by 25%.",
+            "after": "Reduces the damage the Pokémon takes from super effective moves by 25%."
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "name": "Ice Body",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon has ¹⁄₁₆ of its max HP restored at the end of every turn in snow or hail. The Pokémon also takes no damage from hail.",
+            "after": "The Pokémon has 1/16 of its max HP restored at the end of every turn in snow or hail. The Pokémon also takes no damage from hail."
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "name": "Solid Rock",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Reduces the damage the Pokémon takes from supereffective moves by 25%.",
+            "after": "Reduces the damage the Pokémon takes from super effective moves by 25%."
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "name": "Snow Warning",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Summons snow for 5 turns when the Pokémon enters a battle.",
+            "after": "Summons snow for 5 turns when the Pokémon enters a battle. Ice-type Pokemon have their Defense stat boosted by 50%."
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "name": "Bad Dreams",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Damages opposing Pokémon that are asleep at the end of every turn by ⅛ of their max HP.",
+            "after": "Damages opposing Pokémon that are asleep at the end of every turn by 1/8 of their max HP."
+          }
+        ]
+      },
+      {
+        "id": 129,
+        "name": "Defeatist",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP drops to ½ or less.",
+            "after": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP drops to 1/2 or less."
+          }
+        ]
+      },
+      {
+        "id": 144,
+        "name": "Regenerator",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon has ⅓ of its max HP restored when it switches out of battle.",
+            "after": "The Pokémon has 1/3 of its max HP restored when it switches out of battle."
+          }
+        ]
+      },
+      {
+        "id": 158,
+        "name": "Prankster",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Increases the priority of the Pokémon’s status moves by 1 stage. Dark-type Pokémon are immune to these moves.",
+            "after": "Increases the priority of the Pokémon’s status moves by 1 stage. However, the Pokémon’s status moves no longer work against Dark-type Pokémon."
+          }
+        ]
+      },
+      {
+        "id": 160,
+        "name": "Iron Barbs",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon’s iron barbs damage attackers that hit it with contact moves for ⅛ of their max HP.",
+            "after": "The Pokémon’s iron barbs damage attackers that hit it with contact moves for 1/8 of their max HP."
+          }
+        ]
+      },
+      {
+        "id": 161,
+        "name": "Zen Mode",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon changes its form to Zen Mode when its HP drops to ½ or less.",
+            "after": "The Pokémon changes its form to Zen Mode when its HP drops to 1/2 or less."
+          }
+        ]
+      },
+      {
+        "id": 167,
+        "name": "Cheek Pouch",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon has ⅓ of its max HP restored when it eats a Berry, in addition to the Berry’s usual effect.",
+            "after": "The Pokémon has 1/3 of its max HP restored when it eats a Berry, in addition to the Berry’s usual effect."
+          }
+        ]
+      },
+      {
+        "id": 178,
+        "name": "Mega Launcher",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the power of Aura Sphere and moves with \"Pulse\" in their names by 50%.",
+            "after": "Boosts the power of Aura Sphere and moves with “Pulse” in their names by 50%."
+          }
+        ]
+      },
+      {
+        "id": 185,
+        "name": "Parental Bond",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon attacks, its kin follows up with a second strike at ¼ of the first attack’s power. This does not occur for multistrike moves or moves that target multiple Pokémon.",
+            "after": "When the Pokémon attacks, its kin follows up with a second strike at 1/4 of the first attack’s power. This does not occur for multistrike moves or moves that target multiple Pokémon."
+          }
+        ]
+      },
+      {
+        "id": 189,
+        "name": "Primordial Sea",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon changes the weather to nullify Fire-type attacks.",
+            "after": "The Pokémon changes the weather to nullify Fire-type attacks and increase the damage of Water-type moves by 50%."
+          }
+        ]
+      },
+      {
+        "id": 190,
+        "name": "Desolate Land",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon changes the weather to nullify Water-type attacks.",
+            "after": "The Pokémon changes the weather to nullify Water-type attacks and increase the damage of Fire-type moves by 50%."
+          }
+        ]
+      },
+      {
+        "id": 191,
+        "name": "Delta Stream",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon changes the weather so that no moves are supereffective against the Flying type.",
+            "after": "The Pokémon changes the weather so that no moves are super effective against the Flying type."
+          }
+        ]
+      },
+      {
+        "id": 193,
+        "name": "Wimp Out",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon cowardly switches out when its HP drops to ½ or less.",
+            "after": "The Pokémon cowardly switches out when its HP drops to 1/2 or less."
+          }
+        ]
+      },
+      {
+        "id": 194,
+        "name": "Emergency Exit",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon, sensing danger, switches out when its HP drops to ½ or less.",
+            "after": "The Pokémon, sensing danger, switches out when its HP drops to 1/2 or less."
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "name": "Shields Down",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When its HP drops to ½ or less, the Pokémon’s shell breaks and it becomes aggressive.",
+            "after": "The Pokémon’s shell protects it from status conditions. When its HP drops to 1/2 or less, the shell breaks and it becomes aggressive, changing into its Core Form."
+          }
+        ]
+      },
+      {
+        "id": 201,
+        "name": "Berserk",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the Pokémon’s Sp. Atk stat when an attack causes its HP to drop to ½ or less of its max.",
+            "after": "Boosts the Pokémon’s Sp. Atk stat when an attack causes its HP to drop to 1/2 or less of its max."
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "name": "Schooling",
+        "changes": [
+          {
+            "field": "description",
+            "before": "The Pokémon forms a powerful school when it reaches level 20. It stops schooling when its HP drops to ¼ or less.",
+            "after": "The Pokémon forms a powerful school when it reaches level 20. It stops schooling when its HP drops to 1/4 or less."
+          }
+        ]
+      },
+      {
+        "id": 209,
+        "name": "Disguise",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Once per battle, the shroud that covers the Pokémon can protect it from an attack at the cost of losing ⅛ of its max HP.",
+            "after": "Once per battle, the shroud that covers the Pokémon can protect it from an attack at the cost of losing 1/8 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 211,
+        "name": "Power Construct",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Cells gather to aid the Pokémon when its HP drops to ½ or less, causing it to change into its Complete Forme.",
+            "after": "Cells gather to aid the Pokémon when its HP drops to 1/2 or less, causing it to change into its Complete Forme."
+          }
+        ]
+      },
+      {
+        "id": 226,
+        "name": "Electric Surge",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle.",
+            "after": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Electric-type moves boosted by 30% and cannot be put to sleep."
+          }
+        ]
+      },
+      {
+        "id": 227,
+        "name": "Psychic Surge",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle.",
+            "after": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority."
+          }
+        ]
+      },
+      {
+        "id": 228,
+        "name": "Misty Surge",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Turns the ground into Misty Terrain for 5 turns when the Pokémon enters a battle.",
+            "after": "Turns the ground into Misty Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground are protected from status conditions and receive half the damage dealt by Dragon-type moves."
+          }
+        ]
+      },
+      {
+        "id": 229,
+        "name": "Grassy Surge",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon enters a battle.",
+            "after": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Grass-type moves boosted by 30% and restore 1/16 of their max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 232,
+        "name": "Prism Armor",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Reduces the damage the Pokémon takes from supereffective moves by 25%. This effect cannot be ignored by other Pokémon’s moves or Abilities.",
+            "after": "Reduces the damage the Pokémon takes from super effective moves by 25%. This effect cannot be ignored by other Pokémon’s moves or Abilities."
+          }
+        ]
+      },
+      {
+        "id": 241,
+        "name": "Gulp Missile",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon uses Surf or Dive, it returns with prey. If the Pokémon is hit by a move, it spits out its prey at the attacker, dealing damage equal to ¼ of the attacker’s max HP. This also lowers the attacker’s Defense stat or paralyzes it, depending on the caught prey.",
+            "after": "When the Pokémon uses Surf or Dive, it returns with prey. If the Pokémon is hit by a move, it spits out its prey at the attacker, dealing damage equal to 1/4 of the attacker’s max HP. This also lowers the attacker’s Defense stat or paralyzes it, depending on the caught prey."
+          }
+        ]
+      },
+      {
+        "id": 242,
+        "name": "Stalwart",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.",
+            "after": "The Pokémon ignores the effects of Abilities and moves that draw in moves."
+          }
+        ]
+      },
+      {
+        "id": 244,
+        "name": "Punk Rock",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Boosts the power of the Pokémon’s sound-based moves by 30%. The Pokémon also takes half the damage from these kinds of moves",
+            "after": "Boosts the power of the Pokémon’s sound-based moves by 30% and halves the damage the Pokémon takes from sound-based moves."
+          }
+        ]
+      },
+      {
+        "id": 245,
+        "name": "Sand Spit",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Summons a sandstorm for 5 turns when the Pokémon takes damage from moves.",
+            "after": "Summons a sandstorm for 5 turns when the Pokémon takes damage from moves. Pokémon that are not Rock, Ground, or Steel types take damage equal to 1/16 of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
+          }
+        ]
+      },
+      {
+        "id": 253,
+        "name": "Perish Body",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon is hit by a contact move, the Pokémon and the attacker will faint after three turns unless they switch out of battle.",
+            "after": "When the Pokémon is hit by a contact move, the Pokémon and the attacker will faint after three turns unless they switch out of battle. Boss Pokémon are immune to this effect."
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "name": "Neutralizing Gas",
+        "changes": [
+          {
+            "field": "description",
+            "before": "While the Pokémon is in the battle, the effects of all other Pokémon’s Abilities will be nullified or will not be triggered.",
+            "after": "While the Pokémon is in the battle, the effects of all other Pokémon’s Abilities and Passives will be nullified or will not be triggered."
+          }
+        ]
+      },
+      {
+        "id": 260,
+        "name": "Unseen Fist",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing ¼ of the damage that the move would otherwise deal. Everything aside from the target’s protective effects is still triggered.",
+            "after": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target’s protective effects is still triggered."
+          }
+        ]
+      },
+      {
+        "id": 269,
+        "name": "Seed Sower",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon takes damage from moves.",
+            "after": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon takes damage from moves. Pokémon on the ground have their Grass-type moves boosted by 30% and restore 1/16 of their max HP at the end of every turn."
+          }
+        ]
+      },
+      {
+        "id": 271,
+        "name": "Anger Shell",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When an attack causes its HP to drop to ½ or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats.",
+            "after": "When an attack causes its HP to drop to 1/2 or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "name": "Commander",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Upon entering battle, the Pokémon goes inside an ally Dondozo if one is on the field and raises all its stats sharply. If this Pokémon is your lead into battle, it raises the likelihood of double battles.",
+            "after": "Upon entering battle, the Pokémon goes inside an ally Dondozo if one is on the field and raises all its stats sharply. Raises the likelihood of Double Battles while this Pokémon is on the field."
+          }
+        ]
+      },
+      {
+        "id": 288,
+        "name": "Orichalcum Pulse",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Summons harsh sunlight for 5 turns when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat by 33% in harsh sunlight.",
+            "after": "Summons harsh sunlight for 5 turns when entering a battle, which powers up Fire-type moves by 50% and halves the power of Water-type moves. The ancient pulse thrumming through the Pokémon also boosts its Attack stat by 33% in harsh sunlight."
+          }
+        ]
+      },
+      {
+        "id": 289,
+        "name": "Hadron Engine",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat by 33% on Electric Terrain.",
+            "after": "Turns the ground into Electric Terrain for 5 turns when entering a battle, which powers up the Electric-type moves of Pokémon on the ground by 30% and prevents them from falling asleep. The futuristic engine within the Pokémon also boosts its Sp. Atk stat by 33% on Electric Terrain."
+          }
+        ]
+      },
+      {
+        "id": 295,
+        "name": "Toxic Debris",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+            "after": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves. Opposing Pokémon that land on these spikes when switching into battle will be poisoned. A second layer of spikes will instead badly poison. Poison-types that land on these spikes will absorb and remove them from the field."
+          }
+        ]
+      },
+      {
+        "id": 297,
+        "name": "Earth Eater",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Ground-type moves do not work on the Pokémon. Instead, they restore ¼ of its max HP.",
+            "after": "Ground-type moves do not work on the Pokémon. Instead, they restore 1/4 of its max HP."
+          }
+        ]
+      },
+      {
+        "id": 301,
+        "name": "Hospitality",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon enters a battle, it showers its ally with hospitality, restoring ¼ of its ally’s max HP.",
+            "after": "When the Pokémon enters a battle, it showers its ally with hospitality, restoring 1/4 of its ally’s max HP."
+          }
+        ]
+      },
+      {
+        "id": 311,
+        "name": "Piercing Drill",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing ¼ of the damage that the move would otherwise deal. Everything aside from the target’s protective effects is still triggered.",
+            "after": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target’s protective effects is still triggered."
+          }
+        ]
+      }
+    ]
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 41,
+        "name": "Laboratory",
+        "changes": [
+          {
+            "field": "links",
+            "before": [
+              {
+                "to": 26,
+                "chance": 1
+              }
+            ],
+            "after": [
+              {
+                "to": 26,
+                "chance": 1
+              },
+              {
+                "to": 40,
+                "chance": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "key": "EXP_SHARE",
+        "name": "Exp. All",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Non-participants receive 20% of a single participant’s EXP. Points.",
+            "after": "Non-participants receive 20% of a single participant’s Exp. Points."
+          }
+        ]
+      },
+      {
+        "key": "EXP_BALANCE",
+        "name": "Exp. Balance",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Weighs EXP. Points received from battles towards lower-leveled party members.",
+            "after": "Weighs Exp. Points received from battles towards lower-leveled party members."
+          }
+        ]
+      },
+      {
+        "key": "OVAL_CHARM",
+        "name": "Oval Charm",
+        "changes": [
+          {
+            "field": "description",
+            "before": "When multiple Pokémon participate in a battle, each gets an extra 10% of the total EXP.",
+            "after": "When multiple Pokémon participate in a battle, each gets an extra 10% of the total Exp."
+          }
+        ]
+      },
+      {
+        "key": "EXP_CHARM",
+        "name": "Exp. Charm",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Increases gain of EXP. Points by 25%.",
+            "after": "Increases gain of Exp. Points by 25%."
+          }
+        ]
+      },
+      {
+        "key": "SUPER_EXP_CHARM",
+        "name": "Super Exp. Charm",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Increases gain of EXP. Points by 60%.",
+            "after": "Increases gain of Exp. Points by 60%."
+          }
+        ]
+      },
+      {
+        "key": "GOLDEN_EXP_CHARM",
+        "name": "Golden Exp. Charm",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Increases gain of EXP. Points by 100%.",
+            "after": "Increases gain of Exp. Points by 100%."
+          }
+        ]
+      },
+      {
+        "key": "LUCKY_EGG",
+        "name": "Lucky Egg",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Increases the holder’s gain of EXP. Points by 40%.",
+            "after": "Increases the holder’s gain of Exp. Points by 40%."
+          }
+        ]
+      },
+      {
+        "key": "GOLDEN_EGG",
+        "name": "Golden Egg",
+        "changes": [
+          {
+            "field": "description",
+            "before": "Increases the holder’s gain of EXP. Points by 100%.",
+            "after": "Increases the holder’s gain of Exp. Points by 100%."
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 238
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 150
+    },
+    "abilities": {
+      "added": 1,
+      "removed": 0,
+      "changed": 73
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 8
+    }
+  },
+  "total": 471
+}

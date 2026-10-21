@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Copied in at build time (vercel.json buildCommand)
+site/CHANGELOG.md

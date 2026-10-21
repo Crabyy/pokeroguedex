@@ -1,0 +1,69 @@
+{
+  "from": "v1.12.1.2",
+  "to": "v1.12.1.3",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 791,
+        "name": "Life Dew",
+        "changes": [
+          {
+            "field": "status",
+            "before": null,
+            "after": "edgeCase"
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    },
+    "abilities": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "total": 1
+}
