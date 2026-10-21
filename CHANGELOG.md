@@ -9,6 +9,10 @@ dex version; they're listed on the site under **What's new → Game updates**.
 
 ## [Unreleased]
 
+### Added
+
+- The project is now licensed under the [GNU AGPL-3.0](https://github.com/Crabyy/pokeroguedex/blob/main/LICENSE), matching PokéRogue.
+
 ## [1.0.0] — 2026-10-22
 
 The first release: a complete, auto-updating dex for PokéRogue **v1.12.1.3**.
@@ -28,7 +32,7 @@ The first release: a complete, auto-updating dex for PokéRogue **v1.12.1.3**.
   - Where to find it: every biome, rarity tier and time of day.
 - **Moves** — power, accuracy, PP, priority, target, flags and TM tier, plus PokéRogue's
   implementation status (not implemented / partial / edge cases). Each move lists who learns it and how.
-- **Abilities** — descriptions, implementation status, Mold Breaker-ability and other flags, and every
+- **Abilities** — descriptions, implementation status, flags (e.g. whether Mold Breaker ignores it), and every
   Pokémon that has it as a regular, hidden or **passive** ability.
 - **Biomes** — wild pools by rarity and time of day with odds, boss pools, trainers, weather/terrain
   chances and the routes in and out of each biome.

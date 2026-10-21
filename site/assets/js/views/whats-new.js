@@ -47,7 +47,8 @@ async function renderDexChangelog(body) {
     const fromFirstVersion = text
       .slice(Math.max(0, text.search(/^## /m)))
       .replace(/^## \[Unreleased\]\s*(?=^## )/ms, "") // hide an empty Unreleased section
-      .replace(/^(## )\[([^\]]+)\]/gm, "$1v$2");
+      .replace(/^(## )\[(\d[^\]]*)\]/gm, "$1v$2") // "## [1.0.0]" → "## v1.0.0"
+      .replace(/^(## )\[([^\]]+)\]/gm, "$1$2"); // "## [Unreleased]" → "## Unreleased"
     body.innerHTML = `<div class="card prose changelog">${markdown(fromFirstVersion)}</div>`;
   } catch {
     body.innerHTML = String(html`<div class="card"><p>The changelog lives in <a href="https://github.com/Crabyy/pokeroguedex/blob/main/CHANGELOG.md" target="_blank" rel="noopener">CHANGELOG.md on GitHub</a>.</p></div>`);

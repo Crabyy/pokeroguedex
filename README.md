@@ -10,6 +10,7 @@ rebuilt automatically whenever PokéRogue ships an update.
 ![Dex version](https://img.shields.io/badge/dex-v1.0.0-f5b83d)
 ![Game data](https://img.shields.io/badge/game%20data-PokéRogue%20v1.12.1.3-4a9bf8)
 ![Auto-updated](https://img.shields.io/badge/updates-every%206%20hours-4fd17f)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 
 ### **[🔗 pokeroguedex.vercel.app](https://pokeroguedex.vercel.app)**
 
@@ -183,3 +184,12 @@ with the Pokémon/move and the game version shown in the header.
 - Inspired by the original community dex at dex.playpokerogue.com.
 - Pokémon and all related names are trademarks of Nintendo, Game Freak and The Pokémon Company.
   This is an unofficial fan project and is not affiliated with any of them.
+
+## License
+
+Copyright © 2026 Crabyy and contributors.
+
+PokéRogue Dex is free software, licensed under the
+[GNU Affero General Public License v3.0](LICENSE) (AGPL-3.0-only) — the same license as PokéRogue,
+whose source the dex's data is extracted from. You may use, modify and redistribute it, but if you
+run a modified version as a public website you must make your source code available under the same license.
