@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "pokeroguedex@crabyy.github.io": {
+      "updates": [
+        {
+          "version": "1.1.0",
+          "update_link": "https://pokeroguedex.vercel.app/extension/pokeroguedex-1.1.0.xpi",
+          "update_hash": "sha256:94184478218fa273d3f70f068c98a4ef4787d2c53890d1597dc03d287741fdae"
+        }
+      ]
+    }
+  }
+}
