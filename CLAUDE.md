@@ -93,7 +93,7 @@ the current list. Views keep filters in the URL via `replaceListQuery()` (no re-
 
 ## Versioning (see README → Versioning)
 
-- Two versions: the **dex** (SemVer, `package.json`, currently tagged `v1.0.0`) and the **game data**
+- Two versions: the **dex** (SemVer, `package.json`, currently tagged `v1.1.0`) and the **game data**
   (PokéRogue release in `site/data/meta.json`, updated automatically — never bumps the dex version).
 - Every user-facing change gets a line under `## [Unreleased]` in `CHANGELOG.md`. The site renders that
   file on *What's new → Dex changelog* and hides an empty Unreleased section.

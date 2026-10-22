@@ -7,7 +7,7 @@
 Every species, form, move, ability, biome and item — extracted straight from the latest game release,
 rebuilt automatically whenever PokéRogue ships an update.
 
-![Dex version](https://img.shields.io/badge/dex-v1.0.0-f5b83d)
+![Dex version](https://img.shields.io/badge/dex-v1.1.0-f5b83d)
 ![Game data](https://img.shields.io/badge/game%20data-PokéRogue%20v1.12.1.3-4a9bf8)
 ![Auto-updated](https://img.shields.io/badge/updates-every%206%20hours-4fd17f)
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
@@ -19,6 +19,14 @@ rebuilt automatically whenever PokéRogue ships an update.
 ---
 
 ## What's new?
+
+### v1.1.0 — the dex inside the game (Oct 22, 2026)
+
+- 🧩 **Firefox extension** — press `Alt + P` on pokerogue.net to slide the dex out next to the game,
+  press it again to get back to playing. Pick any shortcut you like; the panel is resizable and reopens
+  where you left off. Works in Firefox-based browsers like Zen too.
+- 📥 **One-click install** from the new [extension page](https://pokeroguedex.vercel.app/#/extension) —
+  signed by Mozilla, hosted on the dex itself and updates automatically.
 
 ### v1.0.0 — first release (Oct 22, 2026)
 
@@ -41,7 +49,7 @@ The project tracks **two independent versions**:
 
 | | Current | Where it's shown | Changes when… |
 |---|---|---|---|
-| **Dex version** | `v1.0.0` | `package.json`, footer, _What's new_ | the website/tooling changes |
+| **Dex version** | `v1.1.0` | `package.json`, footer, _What's new_ | the website/tooling changes |
 | **Game data version** | PokéRogue `v1.12.1.3` | header pill, `site/data/meta.json` | a new PokéRogue release is picked up |
 
 The dex follows [Semantic Versioning](https://semver.org/):

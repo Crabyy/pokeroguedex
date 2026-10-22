@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PokéRogue Dex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The always-up-to-date PokéRogue Dex in a slide-out panel on pokerogue.net. Toggle it with a keyboard shortcut you choose.",
   "homepage_url": "https://pokeroguedex.vercel.app",
   "icons": {

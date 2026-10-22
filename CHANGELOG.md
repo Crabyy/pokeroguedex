@@ -9,6 +9,10 @@ dex version; they're listed on the site under **What's new → Game updates**.
 
 ## [Unreleased]
 
+## [1.1.0] — 2026-10-22
+
+The dex comes to the game: a Firefox extension that opens it right inside PokéRogue.
+
 ### Added
 
 - **Firefox extension** — opens the dex in a slide-out panel on pokerogue.net only, toggled with
