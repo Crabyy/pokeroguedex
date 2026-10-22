@@ -9,6 +9,14 @@ dex version; they're listed on the site under **What's new → Game updates**.
 
 ## [Unreleased]
 
+### Added
+
+- **Firefox extension** — opens the dex in a slide-out panel on pokerogue.net only, toggled with
+  `Alt + P` or any shortcut you pick from the toolbar button. The panel is resizable and reopens on the
+  page you left. Works in Firefox-based browsers like Zen too.
+- **Firefox extension page** (puzzle icon in the header) with a one-click install. The extension is
+  signed by Mozilla, hosted here rather than on the add-ons store, and updates itself.
+
 ## [1.0.0] — 2026-10-22
 
 The first release: a complete, auto-updating dex for PokéRogue **v1.12.1.3**.

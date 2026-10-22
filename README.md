@@ -57,7 +57,7 @@ _What's new → Game updates_ on the site, with a generated diff for every relea
 ### Releasing a new dex version
 
 1. Move the entries under `## [Unreleased]` in [CHANGELOG.md](CHANGELOG.md) into a new `## [x.y.z] — YYYY-MM-DD` section.
-2. Bump `"version"` in `package.json` (and the dex badge + _What's new?_ section above).
+2. Bump `"version"` in `package.json` and `extension/manifest.json` (and the dex badge + _What's new?_ section above).
 3. Rebuild data so `meta.json` carries the new version: `npm run data -- --force`.
 4. Commit, then tag: `git tag vx.y.z && git push --tags`.
 
@@ -109,6 +109,44 @@ commit used by the game release.
 
 ---
 
+## Firefox extension
+
+`extension/` puts the dex in a slide-out panel **on pokerogue.net only** — it doesn't run on any other
+site. It's for Firefox and Firefox-based browsers (Zen, LibreWolf, Floorp, …), distributed from the
+site itself rather than the add-ons store: **[pokeroguedex.vercel.app/#/extension](https://pokeroguedex.vercel.app/#/extension)**.
+
+- Press **`Alt + P`** to toggle the panel (works whether the game or the dex has focus). Change the
+  shortcut from the extension's toolbar button: click the key, press any key or combo. Bare keys are
+  ignored while typing in text fields.
+- The panel loads the live site, so it's always as current as pokeroguedex.vercel.app. It's created on
+  first open (no cost to the game until then), remembers the page you were on and is resizable by its
+  left edge.
+
+### How it's distributed
+
+Release Firefox only installs add-ons signed by Mozilla. We sign as **unlisted** — signed, but not
+listed on addons.mozilla.org (AMO) — and host the result ourselves:
+
+1. `npm run extension:sign` (needs `AMO_JWT_ISSUER` / `AMO_JWT_SECRET` from
+   [AMO → API keys](https://addons.mozilla.org/developers/addon/api/key/)) uploads `extension/` with
+   `web-ext`, waits for Mozilla's automated signing and writes `site/extension/pokeroguedex-<version>.xpi`
+   plus `site/extension/updates.json`.
+2. The site's _Firefox extension_ page reads `updates.json` for its install button. Firefox polls the
+   same file (`gecko.update_url` in the manifest), so installs update themselves.
+3. `.github/workflows/release-extension.yml` does this on every `v*` tag (or manually) and commits the
+   result, so Vercel redeploys. Add `AMO_JWT_ISSUER` and `AMO_JWT_SECRET` as repository secrets.
+
+AMO signs each version once, so a new build needs a version bump (`package.json` + `extension/manifest.json`).
+
+### Trying it locally
+
+- **Any Firefox:** `about:debugging#/runtime/this-firefox` → _Load Temporary Add-on_ → pick
+  `extension/manifest.json` (removed when the browser restarts).
+- **Zen / Developer Edition / Nightly:** set `xpinstall.signatures.required` to `false` in
+  `about:config`, run `npm run extension:pack`, then `about:addons` → ⚙ → _Install Add-on From File_ →
+  `dist/pokeroguedex-<version>-unsigned.xpi` (stays installed). CI attaches this unsigned build to every
+  run as the `pokeroguedex-extension` artifact.
+
 ## Development
 
 Requires **Node.js 22+** and **git**.
@@ -117,7 +155,9 @@ Requires **Node.js 22+** and **git**.
 npm install          # just TypeScript (used by the data pipeline)
 npm run data         # build site/data from the latest PokéRogue release (+ diffs for the last 4 releases)
 npm run dev          # http://localhost:5173
-npm test             # unit tests for the evaluator, extractor helpers, diff and markdown renderer
+npm test             # unit tests for the evaluator, extractor helpers, diff, markdown renderer and extension
+npm run extension:pack  # unsigned .xpi of extension/ in dist/ (for local installs)
+npm run extension:sign  # Mozilla-signed .xpi → site/extension/ (needs AMO API keys)
 ```
 
 Useful options:
@@ -146,9 +186,12 @@ site/                     The static website (deployed as-is)
 scripts/
   build-data.mjs          Data pipeline CLI
   serve.mjs               Local dev server
+  pack-extension.mjs      Unsigned .xpi of extension/ (zero-dependency zip writer in lib/zip.mjs)
+  sign-extension.mjs      Mozilla-signed .xpi + updates.json → site/extension/
   lib/                    sources, ts-eval, extract, diff
   test/                   node:test unit tests
-.github/workflows/        ci.yml (tests) · update-data.yml (auto-update)
+.github/workflows/        ci.yml (tests + unsigned .xpi) · update-data.yml (auto-update) · release-extension.yml (sign + publish)
+extension/                Firefox extension (dex panel on pokerogue.net)
 CHANGELOG.md              Dex changelog (rendered on the site)
 vercel.json               Vercel deployment config
 ```

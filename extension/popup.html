@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PokéRogue Dex</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon-32.png" alt="" width="22" height="22" />
+      <h1>PokéRogue Dex</h1>
+    </header>
+
+    <section id="onGame" hidden>
+      <button id="toggle" class="primary" type="button">Open the dex</button>
+    </section>
+    <section id="offGame" hidden>
+      <p>The dex panel only works on <strong>pokerogue.net</strong>.</p>
+      <a class="primary" href="https://pokerogue.net" target="_blank" rel="noopener">Play PokéRogue</a>
+    </section>
+
+    <section>
+      <h2>Toggle shortcut</h2>
+      <div class="row">
+        <button id="record" class="key" type="button" aria-describedby="recordHint"></button>
+        <button id="reset" class="ghost" type="button">Reset</button>
+      </div>
+      <p id="recordHint" class="muted">Click, then press the key or combo you want.</p>
+      <p id="warn" class="warn" hidden>
+        Bare keys are ignored while typing in text fields. Make sure the game doesn't use it too.
+      </p>
+    </section>
+
+    <footer><a href="https://pokeroguedex.vercel.app" target="_blank" rel="noopener">pokeroguedex.vercel.app</a></footer>
+
+    <script src="shortcut.js"></script>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

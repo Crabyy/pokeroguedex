@@ -17,6 +17,8 @@
     "data": "node scripts/build-data.mjs",
     "data:check": "node scripts/build-data.mjs --check",
     "dev": "node scripts/serve.mjs",
+    "extension:pack": "node scripts/pack-extension.mjs",
+    "extension:sign": "node scripts/sign-extension.mjs",
     "test": "node --test \"scripts/test/**/*.test.mjs\""
   },
   "devDependencies": {

@@ -1,0 +1,151 @@
+/* Tokens mirror the dex (site/assets/css/main.css). */
+:root {
+  color-scheme: dark;
+  --bg: #0f111c;
+  --surface: #191d31;
+  --surface-3: #2a3050;
+  --border: #2b3152;
+  --border-strong: #3a4270;
+  --text: #e9ebf8;
+  --muted: #8e94b8;
+  --accent: #f5b83d;
+  --accent-ink: #1b1400;
+  --link: #9db2ff;
+  --focus: #ffd36b;
+  --warn: #ffb547;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+  margin: 0;
+  padding: 14px;
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 15px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+section {
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.muted {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.warn {
+  margin: 6px 0 0;
+  color: var(--warn);
+  font-size: 12px;
+}
+
+button,
+.primary {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.primary {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: 0;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 650;
+  text-align: center;
+  text-decoration: none;
+}
+
+.primary:hover {
+  filter: brightness(1.08);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+.key {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.key:hover {
+  background: var(--surface-3);
+}
+
+.key.recording {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.ghost {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--muted);
+}
+
+.ghost:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+}
+
+footer {
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  text-align: center;
+}
+
+footer a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

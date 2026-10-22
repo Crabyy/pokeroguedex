@@ -3,6 +3,7 @@ import { db, iconUrl, itemIconUrl, loadData } from "./lib/data.js";
 import { nav } from "./lib/nav.js";
 import * as abilities from "./views/abilities.js";
 import * as biomes from "./views/biomes.js";
+import * as extension from "./views/extension.js";
 import * as items from "./views/items.js";
 import * as moves from "./views/moves.js";
 import * as pokemon from "./views/pokemon.js";
@@ -17,6 +18,7 @@ const SECTIONS = {
   items: { module: items, title: "Items", kind: "Item" },
   types: { module: types, title: "Type chart" },
   "whats-new": { module: whatsNew, title: "What's new" },
+  extension: { module: extension, title: "Firefox extension" },
 };
 
 const state = {
@@ -353,6 +355,8 @@ async function boot() {
       <a href="https://github.com/Crabyy/pokeroguedex/issues" target="_blank" rel="noopener">Report an issue</a>`,
   );
   if (storage.get("prdex:seen") !== seenKey()) $("#newDot").hidden = false;
+  // Inside the extension's own panel there's no point advertising the extension.
+  if (window.top !== window) $("#extensionBtn").hidden = true;
 
   buildQuickIndex();
   window.addEventListener("hashchange", route);
