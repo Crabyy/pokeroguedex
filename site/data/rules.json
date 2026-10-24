@@ -6,17 +6,6 @@
       "costReduction": [
         25,
         60
-      ],
-      "eggCosts": [
-        30,
-        27,
-        22,
-        15
-      ],
-      "eggCostReductionThresholds": [
-        20,
-        40,
-        80
       ]
     },
     {
@@ -25,17 +14,6 @@
       "costReduction": [
         25,
         60
-      ],
-      "eggCosts": [
-        30,
-        27,
-        22,
-        15
-      ],
-      "eggCostReductionThresholds": [
-        20,
-        40,
-        80
       ]
     },
     {
@@ -44,17 +22,6 @@
       "costReduction": [
         20,
         50
-      ],
-      "eggCosts": [
-        25,
-        22,
-        18,
-        12
-      ],
-      "eggCostReductionThresholds": [
-        20,
-        40,
-        80
       ]
     },
     {
@@ -63,17 +30,6 @@
       "costReduction": [
         15,
         40
-      ],
-      "eggCosts": [
-        20,
-        18,
-        15,
-        10
-      ],
-      "eggCostReductionThresholds": [
-        15,
-        30,
-        60
       ]
     },
     {
@@ -82,17 +38,6 @@
       "costReduction": [
         12,
         35
-      ],
-      "eggCosts": [
-        18,
-        16,
-        13,
-        9
-      ],
-      "eggCostReductionThresholds": [
-        15,
-        30,
-        60
       ]
     },
     {
@@ -101,17 +46,6 @@
       "costReduction": [
         10,
         30
-      ],
-      "eggCosts": [
-        15,
-        13,
-        11,
-        7
-      ],
-      "eggCostReductionThresholds": [
-        15,
-        30,
-        60
       ]
     },
     {
@@ -120,17 +54,6 @@
       "costReduction": [
         8,
         20
-      ],
-      "eggCosts": [
-        12,
-        10,
-        9,
-        6
-      ],
-      "eggCostReductionThresholds": [
-        10,
-        20,
-        40
       ]
     },
     {
@@ -139,17 +62,6 @@
       "costReduction": [
         5,
         15
-      ],
-      "eggCosts": [
-        10,
-        9,
-        7,
-        5
-      ],
-      "eggCostReductionThresholds": [
-        10,
-        20,
-        40
       ]
     },
     {
@@ -158,17 +70,6 @@
       "costReduction": [
         5,
         15
-      ],
-      "eggCosts": [
-        10,
-        9,
-        7,
-        5
-      ],
-      "eggCostReductionThresholds": [
-        10,
-        20,
-        40
       ]
     },
     {
@@ -177,17 +78,6 @@
       "costReduction": [
         5,
         15
-      ],
-      "eggCosts": [
-        10,
-        9,
-        7,
-        5
-      ],
-      "eggCostReductionThresholds": [
-        8,
-        16,
-        32
       ]
     }
   ],

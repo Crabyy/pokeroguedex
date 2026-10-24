@@ -1,0 +1,122 @@
+{
+  "from": "v1.12.1.3",
+  "to": "v1.12.2.0",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 710,
+        "name": "Pumpkaboo",
+        "changes": [
+          {
+            "field": "forms",
+            "added": [
+              "Jumbo Variety"
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 711,
+        "name": "Gourgeist",
+        "changes": [
+          {
+            "field": "forms",
+            "added": [
+              "Jumbo Variety"
+            ],
+            "removed": []
+          }
+        ]
+      }
+    ]
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "abilities": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "key": "SOOTHE_BELL",
+        "name": "Soothe Bell",
+        "changes": [
+          {
+            "field": "pools",
+            "before": [
+              {
+                "pool": "player",
+                "tier": "great",
+                "weight": 2,
+                "maxWeight": 2
+              },
+              {
+                "pool": "dailyStarter",
+                "tier": "ultra",
+                "weight": 1,
+                "maxWeight": 1
+              }
+            ],
+            "after": [
+              {
+                "pool": "player",
+                "tier": "great",
+                "weight": null,
+                "maxWeight": null
+              },
+              {
+                "pool": "dailyStarter",
+                "tier": "ultra",
+                "weight": 1,
+                "maxWeight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 2
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "abilities": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    }
+  },
+  "total": 3
+}
