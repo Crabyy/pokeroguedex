@@ -1,0 +1,198 @@
+{
+  "from": "v1.12.2.0",
+  "to": "v1.12.2.1",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 9,
+        "name": "Blastoise",
+        "changes": [
+          {
+            "field": "form:gigantamax:stats",
+            "before": [
+              119,
+              108,
+              125,
+              105,
+              110,
+              63
+            ],
+            "after": [
+              119,
+              105,
+              125,
+              108,
+              110,
+              63
+            ]
+          }
+        ]
+      },
+      {
+        "id": 429,
+        "name": "Mismagius",
+        "changes": [
+          {
+            "field": "levelMoves",
+            "added": [
+              {
+                "move": 345,
+                "level": -1
+              },
+              {
+                "move": 566,
+                "level": -1
+              },
+              {
+                "move": 595,
+                "level": -1
+              }
+            ],
+            "removed": [
+              {
+                "move": 345,
+                "level": 1
+              },
+              {
+                "move": 566,
+                "level": 1
+              },
+              {
+                "move": 595,
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 863,
+        "name": "Perrserker",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              200
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 884,
+        "name": "Duraludon",
+        "changes": [
+          {
+            "field": "form:gigantamax:stats",
+            "before": [
+              100,
+              120,
+              110,
+              160,
+              85,
+              60
+            ],
+            "after": [
+              100,
+              110,
+              120,
+              160,
+              85,
+              60
+            ]
+          }
+        ]
+      },
+      {
+        "id": 978,
+        "name": "Tatsugiri",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              341
+            ],
+            "removed": []
+          }
+        ]
+      },
+      {
+        "id": 4052,
+        "name": "Meowth",
+        "changes": [
+          {
+            "field": "tms",
+            "added": [
+              200
+            ],
+            "removed": []
+          }
+        ]
+      }
+    ]
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "abilities": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 60,
+        "name": "Sticky Hold",
+        "changes": [
+          {
+            "field": "flags",
+            "added": [],
+            "removed": [
+              "bypassFaint"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 6
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "abilities": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "total": 7
+}
