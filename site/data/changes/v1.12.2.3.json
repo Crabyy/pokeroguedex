@@ -1,0 +1,109 @@
+{
+  "from": "v1.12.2.2",
+  "to": "v1.12.2.3",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "abilities": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 6,
+        "name": "Sea",
+        "changes": [
+          {
+            "field": "trainers",
+            "before": {
+              "COMMON": [
+                {
+                  "id": 49,
+                  "name": "Sailor"
+                },
+                {
+                  "id": 57,
+                  "name": "Swimmer"
+                }
+              ],
+              "UNCOMMON": [
+                {
+                  "id": 51,
+                  "name": "Scuba Diver"
+                }
+              ],
+              "BOSS": [
+                {
+                  "id": 245,
+                  "name": "Marlon"
+                }
+              ]
+            },
+            "after": {
+              "COMMON": [
+                {
+                  "id": 49,
+                  "name": "Sailor"
+                },
+                {
+                  "id": 57,
+                  "name": "Swimmer"
+                }
+              ],
+              "BOSS": [
+                {
+                  "id": 245,
+                  "name": "Marlon"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "abilities": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "total": 1
+}
