@@ -3,16 +3,16 @@
     "version": "1.1.0"
   },
   "game": {
-    "version": "1.12.2.4",
-    "tag": "v1.12.2.4",
-    "name": "Hotfix v1.12.2.4",
-    "publishedAt": "2026-11-04T23:54:15Z",
-    "url": "https://github.com/pagefaultgames/pokerogue/releases/tag/v1.12.2.4",
-    "commit": "f045bef687ee7a60faa94679939d5d9e074cb19d",
-    "localesCommit": "083912e2fd98c68f05160eac72ea857253a0c742",
-    "assetsCommit": "9b3a0969c743baec2d4663b40d068a26e0a066fd"
+    "version": "1.12.2.6",
+    "tag": "v1.12.2.6",
+    "name": "Hotfix v1.12.2.6",
+    "publishedAt": "2026-11-06T22:55:54Z",
+    "url": "https://github.com/pagefaultgames/pokerogue/releases/tag/v1.12.2.6",
+    "commit": "967ac11fad5b31ead174077c6934b5bcded097a2",
+    "localesCommit": "159e9cb88a8f8d4717e6f873870a295d802b9408",
+    "assetsCommit": "a971db88f4be6367d78011ca75c5085ecc23ce06"
   },
-  "generatedAt": "2026-11-05T06:58:15.307Z",
+  "generatedAt": "2026-11-07T06:10:14.706Z",
   "counts": {
     "species": 1084,
     "forms": 1500,
