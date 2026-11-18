@@ -1,0 +1,91 @@
+{
+  "from": "v1.12.2.6",
+  "to": "v1.12.2.7",
+  "species": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "moves": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": 577,
+        "name": "Draining Kiss",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user steals the target’s HP with a kiss. The user’s HP is restored by ¾ of the damage dealt by this move.",
+            "after": "The user steals the target’s HP with a kiss. The user’s HP is restored by 3/4 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 613,
+        "name": "Oblivion Wing",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user unleashes a wave of destruction to absorb HP from target. The user’s HP is restored by ¾ of the damage dealt by this move.",
+            "after": "The user unleashes a wave of destruction to absorb HP from target. The user’s HP is restored by 3/4 of the damage dealt by this move."
+          }
+        ]
+      },
+      {
+        "id": 918,
+        "name": "Upper Hand",
+        "changes": [
+          {
+            "field": "effect",
+            "before": "The user reacts to the target’s movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move.",
+            "after": "The user reacts to the target’s movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority attack."
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "biomes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 3
+    },
+    "abilities": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "biomes": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "items": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "total": 3
+}
